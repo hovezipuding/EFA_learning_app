@@ -1,38 +1,572 @@
 [
-  {
-    "id": "DE-001",
-    "topic": "Opce",
-    "question": "Které tvrzení o kupní opci (call) je správné?",
-    "options": {
-      "A": "Dává držiteli povinnost koupit podklad",
-      "B": "Dává držiteli právo koupit podklad za předem danou cenu",
-      "C": "Dává držiteli právo prodat podklad za předem danou cenu",
-      "D": "Je bezriziková investice"
-    },
-    "correct": "B",
-    "explainCorrect": "Call opce dává držiteli právo (ne povinnost) koupit podklad za realizační cenu do/ke dni expirace.",
-    "explainWrong": {
-      "A": "Povinnost má typicky vypisovatel, ne držitel.",
-      "C": "To je popis prodejní opce (put).",
-      "D": "Opce nesou riziko ztráty prémie a další rizika."
-    }
-  },
-  {
-    "id": "DE-002",
-    "topic": "Futures",
-    "question": "Co nejlépe vystihuje futures kontrakt?",
-    "options": {
-      "A": "Neregulovaný OTC kontrakt bez marží",
-      "B": "Standardizovaný burzovní kontrakt s denním vypořádáním marží",
-      "C": "Je to totéž co opce",
-      "D": "Je to vždy zajištění bez rizika"
-    },
-    "correct": "B",
-    "explainCorrect": "Futures jsou standardizované burzovní kontrakty s marginingem a denním přeceňováním (mark-to-market).",
-    "explainWrong": {
-      "A": "To spíše popisuje forwardy/OTC dohody.",
-      "C": "Opce dávají právo, futures závazek (povinnost).",
-      "D": "Zajištění snižuje riziko, ale nikdy není úplně bez rizika (basis risk apod.)."
-    }
-  }
+{
+"id": "derivaty_001",
+"topic": "Základy derivátů",
+"question": "Jaká je hlavní výhoda nákupu call opce oproti přímému nákupu podkladového aktiva?",
+"options": {
+"A": "Nižší počáteční kapitálová náročnost.",
+"B": "Vyšší jistota výnosu bez rizika.",
+"C": "Garance výplaty prémie při expiraci.",
+"D": "Možnost neomezené ztráty."
+},
+"correct": "A",
+"explainCorrect": "U call opce platí investor pouze opční prémii, nikoli celou cenu podkladového aktiva, což umožňuje pákový efekt.",
+"explainWrong": {
+"A": "",
+"B": "Opce jsou rizikové nástroje; žádný derivát nezaručuje výnos bez rizika.",
+"C": "Kupující opční prémii platí, nedostává ji zpět; prémie je nákladem na pořízení práva.",
+"D": "U nákupu opce (long pozice) je ztráta omezena právě na zaplacenou prémii."
+}
+},
+{
+"id": "derivaty_002",
+"topic": "Základy derivátů",
+"question": "Kdy je put opce považována za in-the-money (ITM)?",
+"options": {
+"A": "Když je realizační cena vyšší než spotová cena.",
+"B": "Když je realizační cena nižší než spotová cena.",
+"C": "Když se strike rovná spotové ceně.",
+"D": "Když nemá vnitřní hodnotu."
+},
+"correct": "A",
+"explainCorrect": "Put opce dává právo prodat, takže je v penězích (ITM), pokud je strike vyšší než aktuální spotová cena.",
+"explainWrong": {
+"A": "",
+"B": "V tomto případě je opce out-of-the-money (OTM), protože prodat za méně, než je na trhu, nedává smysl.",
+"C": "To je definice at-the-money (ATM).",
+"D": "ITM opce se vyznačuje právě tím, že má kladnou vnitřní hodnotu."
+}
+},
+{
+"id": "derivaty_003",
+"topic": "Základy derivátů",
+"question": "K čemu se v praxi nejčastěji používají forwardové kontrakty?",
+"options": {
+"A": "K zajištění proti kurzovým nebo cenovým rizikům.",
+"B": "Ke krátkodobé burzovní spekulaci.",
+"C": "K regulaci marží.",
+"D": "Ke sjednocení kotací bank."
+},
+"correct": "A",
+"explainCorrect": "Forwardy umožňují zafixovat budoucí cenu aktiva (např. měny), což eliminuje nejistotu z budoucího vývoje.",
+"explainWrong": {
+"A": "",
+"B": "Forwardy jsou OTC kontrakty (mimo burzu) a jsou nelikvidní; pro rychlou spekulaci se používají spíše futures.",
+"C": "Mechanismus marží (margin call) je typický pro burzovní futures, nikoliv pro klasické forwardy.",
+"D": "Forwardy jsou individuální smlouvy mezi dvěma stranami, neslouží k regulaci bankovního trhu."
+}
+},
+{
+"id": "forwardy_futures_004",
+"topic": "Forwardy a futures",
+"question": "Který derivát je standardizovaný a obchoduje se na burze?",
+"options": {
+"A": "Futures kontrakt.",
+"B": "Forwardový kontrakt.",
+"C": "Úrokový swap.",
+"D": "FRA."
+},
+"correct": "A",
+"explainCorrect": "Futures jsou vysoce standardizované kontrakty (množství, kvalita, termín), které podléhají kontrole burzy a clearingového centra.",
+"explainWrong": {
+"A": "",
+"B": "Forward je individuální (nestandardizovaná) smlouva uzavíraná mimo burzu.",
+"C": "Swapy jsou typicky OTC deriváty sjednávané přímo mezi finančními institucemi.",
+"D": "FRA (Forward Rate Agreement) je mimoburzovní úrokový derivát."
+}
+},
+{
+"id": "forwardy_futures_005",
+"topic": "Forwardy a futures",
+"question": "Jaký je hlavní rozdíl mezi forwardem a futures?",
+"options": {
+"A": "Forward je burzovní, futures OTC.",
+"B": "Futures jsou standardizované a nemají riziko protistrany.",
+"C": "Forward je zajištěn clearingovým centrem.",
+"D": "Futures nelze použít ke zajištění."
+},
+"correct": "B",
+"explainCorrect": "Díky clearingovému centru, které vstupuje mezi kupujícího a prodávajícího, je u futures výrazně sníženo/eliminováno riziko protistrany.",
+"explainWrong": {
+"A": "Je to přesně naopak: futures jsou burzovní, forwardy OTC.",
+"B": "",
+"C": "Forwardy nemají centrální clearing, nesou tedy přímé kreditní riziko protistrany.",
+"D": "Futures jsou jedním z nejčastěji používaných nástrojů pro zajištění (hedging) komodit či měn."
+}
+},
+{
+"id": "forwardy_futures_006",
+"topic": "Forwardy a futures",
+"question": "Co platí pro zisky a ztráty u futures kontraktů?",
+"options": {
+"A": "Obě strany mohou vydělat.",
+"B": "Jedná se o hru s nulovým součtem.",
+"C": "Zisk je omezen prémií.",
+"D": "Ztráta je vždy omezená."
+},
+"correct": "B",
+"explainCorrect": "U futures (a forwardů) zisk jedné strany přesně odpovídá ztrátě strany druhé.",
+"explainWrong": {
+"A": "Protože jde o pevný kontrakt na budoucí cenu, pohyb ceny vždy zvýhodní jen jednu stranu.",
+"B": "",
+"C": "U futures se neplatí žádná opční prémie; zisk i ztráta mohou být teoreticky velmi vysoké.",
+"D": "Na rozdíl od kupujících opcí mohou u futures obě strany utrpět ztrátu přesahující jejich původní vklad (marži)."
+}
+},
+{
+"id": "urokove_derivaty_007",
+"topic": "Úrokové deriváty – CAP, FLOOR, COLLAR",
+"question": "Který derivát slouží k omezení rizika růstu úrokových sazeb u variabilního úvěru?",
+"options": {
+"A": "Nákup CAP.",
+"B": "Prodej CAP.",
+"C": "Nákup FLOOR.",
+"D": "Prodej COLLAR."
+},
+"correct": "A",
+"explainCorrect": "CAP funguje jako pojistka; pokud sazba vzroste nad sjednanou úroveň, prodávající vyplatí kupujícímu rozdíl.",
+"explainWrong": {
+"A": "",
+"B": "Prodejcem (vypisovatelem) CAPu je ten, kdo za prémii přebírá riziko, že bude muset platit při růstu sazeb.",
+"C": "FLOOR chrání proti poklesu sazeb, což u úvěru (kde se bojíte růstu) nedává smysl.",
+"D": "Prodej COLLARu může v určitých nastaveních riziko zvýšit; standardní pojistka je nákup CAP (případně collar jako kombinace)."
+}
+},
+{
+"id": "urokove_derivaty_008",
+"topic": "Úrokové deriváty – CAP, FLOOR, COLLAR",
+"question": "Co představuje úroková opce typu FLOOR?",
+"options": {
+"A": "Ochranu proti poklesu úrokových sazeb.",
+"B": "Ochranu proti růstu sazeb.",
+"C": "Fixní úrok pro obě strany.",
+"D": "Spekulaci na měnový kurz."
+},
+"correct": "A",
+"explainCorrect": "FLOOR zaručuje minimální úroveň úrokového výnosu, což využívají investoři držící aktiva s pohyblivým úrokem.",
+"explainWrong": {
+"A": "",
+"B": "Ochranu proti růstu sazeb poskytuje CAP.",
+"C": "Fixní úrok pro obě strany je výsledkem úrokového swapu (IRS), nikoliv opce.",
+"D": "Jedná se o úrokový derivát, nikoliv měnový (FX)."
+}
+},
+{
+"id": "urokove_derivaty_009",
+"topic": "Úrokové deriváty – CAP, FLOOR, COLLAR",
+"question": "Jak funguje COLLAR z pohledu kupujícího?",
+"options": {
+"A": "Pouze nákup CAP.",
+"B": "Pouze prodej FLOOR.",
+"C": "Nákup CAP a prodej FLOOR.",
+"D": "Prodej CAP a nákup FLOOR."
+},
+"correct": "C",
+"explainCorrect": "Investor si koupí ochranu proti růstu (CAP) a zároveň prodá ochranu proti poklesu (FLOOR), čímž může získat prémii na financování CAP (např. zero-cost collar).",
+"explainWrong": {
+"A": "Jde o samostatný nástroj; COLLAR je kombinací CAP a FLOOR.",
+"B": "Jde o samostatný nástroj; COLLAR je kombinací CAP a FLOOR.",
+"C": "",
+"D": "Toto je obrácená pozice (prodej CAP a nákup FLOOR), typicky s opačným profilem rizika/výnosu."
+}
+},
+{
+"id": "opce_pojmy_010",
+"topic": "Opce – základní pojmy",
+"question": "Americká opce umožňuje uplatnění práva:",
+"options": {
+"A": "Kdykoli do expirace.",
+"B": "Pouze v den expirace.",
+"C": "Pouze po schválení burzou.",
+"D": "Jen při splnění swapové podmínky."
+},
+"correct": "A",
+"explainCorrect": "Americký typ opce lze uplatnit v jakýkoli obchodní den až do data expirace.",
+"explainWrong": {
+"A": "",
+"B": "Toto je charakteristika evropské opce.",
+"C": "Uplatnění opce je právo držitele; burza do jednotlivých uplatnění nezasahuje.",
+"D": "Swapová podmínka nemá s mechanismem uplatnění opce žádnou souvislost."
+}
+},
+{
+"id": "opce_pojmy_011",
+"topic": "Opce – základní pojmy",
+"question": "Jaké je postavení prodejce (vypisovatele) put opce?",
+"options": {
+"A": "Má povinnost koupit podkladové aktivum při uplatnění opce.",
+"B": "Má právo prodat podklad.",
+"C": "Nemá žádné povinnosti.",
+"D": "Má omezenou ztrátu."
+},
+"correct": "A",
+"explainCorrect": "Vypisovatel put opce přijal prémii za to, že v případě uplatnění opce koupí podklad za realizační cenu.",
+"explainWrong": {
+"A": "",
+"B": "Právo prodat má kupující (držitel) put opce.",
+"C": "Prodejce opce má závazek (povinnost), nikoliv právo.",
+"D": "Ztráta prodejce put opce může být velmi vysoká, pokud cena aktiva prudce klesne (až k nule)."
+}
+},
+{
+"id": "opce_pojmy_012",
+"topic": "Opce – základní pojmy",
+"question": "Co tvoří cenu opce?",
+"options": {
+"A": "Pouze vnitřní hodnota.",
+"B": "Pouze časová hodnota.",
+"C": "Vnitřní hodnota + časová hodnota.",
+"D": "Rozdíl strike a spot."
+},
+"correct": "C",
+"explainCorrect": "Opční prémie se skládá z vnitřní hodnoty a časové hodnoty.",
+"explainWrong": {
+"A": "Vnitřní hodnota je jen část ceny; zejména u ATM opcí je nulová, přesto má opce kladnou cenu.",
+"B": "Časová hodnota je jen část ceny; u ITM opcí je významná i vnitřní hodnota.",
+"C": "",
+"D": "Rozdíl strike a spot určuje vnitřní hodnotu, nikoli celou cenu opce."
+}
+},
+{
+"id": "opce_pojmy_013",
+"topic": "Opce – základní pojmy",
+"question": "Jak se stanoví časová hodnota opce?",
+"options": {
+"A": "Opční prémie minus vnitřní hodnota.",
+"B": "Vnitřní hodnota minus prémie.",
+"C": "Součet spot a strike.",
+"D": "Absolutní rozdíl spot a strike."
+},
+"correct": "A",
+"explainCorrect": "Časová hodnota = opční prémie − vnitřní hodnota.",
+"explainWrong": {
+"A": "",
+"B": "Vnitřní hodnota nemůže být vyšší než celková prémie; takový výsledek by nedával smysl.",
+"C": "Součet spot a strike nijak nedefinuje časovou hodnotu.",
+"D": "Rozdíl spot a strike určuje vnitřní hodnotu (a to jen v závislosti na typu opce), ne časovou hodnotu."
+}
+},
+{
+"id": "itm_atm_otm_014",
+"topic": "ITM / ATM / OTM",
+"question": "Kdy je opce at-the-money (ATM)?",
+"options": {
+"A": "Když je hluboko v penězích.",
+"B": "Když se strike rovná spotové ceně.",
+"C": "Když nemá časovou hodnotu.",
+"D": "Když je bez vnitřní hodnoty."
+},
+"correct": "B",
+"explainCorrect": "ATM nastává, když se spotová cena podkladu rovná realizační ceně (strike).",
+"explainWrong": {
+"A": "To je stav Deep-ITM, nikoliv ATM.",
+"B": "",
+"C": "ATM opce mají obvykle významnou časovou hodnotu; není nulová.",
+"D": "Bez vnitřní hodnoty může být i OTM; odpověď B je přesná definice ATM."
+}
+},
+{
+"id": "itm_atm_otm_015",
+"topic": "ITM / ATM / OTM",
+"question": "Jaké bude plnění put opce při spotové ceně 40 a strike 55?",
+"options": {
+"A": "15.",
+"B": "0.",
+"C": "–15.",
+"D": "Nelze určit."
+},
+"correct": "A",
+"explainCorrect": "Vnitřní hodnota put opce je Strike − Spot, tedy 55 − 40 = 15.",
+"explainWrong": {
+"A": "",
+"B": "Opce je ITM, má tedy kladnou vnitřní hodnotu; nula by byla při spotu nad strike.",
+"C": "Plnění pro držitele opce nemůže být záporné; pokud je nevýhodná, neuplatní se.",
+"D": "Hodnota je jednoznačně daná rozdílem strike a spot."
+}
+},
+{
+"id": "paka_riziko_016",
+"topic": "Páka a riziko",
+"question": "Co je pákový efekt?",
+"options": {
+"A": "Zajištění proti ztrátě.",
+"B": "Velká změna hodnoty investice při malé změně podkladu.",
+"C": "Fixní výnos.",
+"D": "Vlastnost pouze opcí."
+},
+"correct": "B",
+"explainCorrect": "Páka (leverage) umožňuje ovládat velkou expozici s malým kapitálem, což násobí zisky i ztráty.",
+"explainWrong": {
+"A": "Páka není zajištění; naopak může riziko ztráty výrazně zvýšit.",
+"B": "",
+"C": "Pákový efekt nesouvisí s fixním výnosem.",
+"D": "Pákový efekt existuje i u futures, warrantů, certifikátů a marginových obchodů."
+}
+},
+{
+"id": "paka_riziko_017",
+"topic": "Páka a riziko",
+"question": "Jak se počítá pákový efekt?",
+"options": {
+"A": "Cena aktiva × volatilita.",
+"B": "Hodnota majetku / vlastní vklad.",
+"C": "Prémie / strike.",
+"D": "Zisk / riziko."
+},
+"correct": "B",
+"explainCorrect": "Síla páky se vyjadřuje jako poměr celkové expozice (hodnoty pozice) k vlastním vloženým prostředkům.",
+"explainWrong": {
+"A": "Volatilita měří kolísání ceny, ne výši finanční páky.",
+"B": "",
+"C": "Tento poměr není standardním výpočtem páky celého obchodu.",
+"D": "To je poměr risk/reward, nikoliv výpočet páky."
+}
+},
+{
+"id": "swapy_018",
+"topic": "Swapy",
+"question": "Co je úrokový swap?",
+"options": {
+"A": "Nákup dluhopisu.",
+"B": "Výměna fixních a variabilních úrokových plateb.",
+"C": "Opce na úrokovou sazbu.",
+"D": "Burzovní derivát."
+},
+"correct": "B",
+"explainCorrect": "Úrokový swap (IRS) je smlouva, kde si strany vymění úrokové toky z nominální částky, typicky fixní za plovoucí.",
+"explainWrong": {
+"A": "Swap není dluhový cenný papír, ale derivátový kontrakt.",
+"B": "",
+"C": "Swap je závazek (commitment), nikoliv právo jako u opce.",
+"D": "Swapy se obchodují převážně na OTC trhu, ne na burze."
+}
+},
+{
+"id": "swapy_019",
+"topic": "Swapy",
+"question": "Jak dlouhé bývají typicky úrokové swapy?",
+"options": {
+"A": "Několik týdnů.",
+"B": "Několik let.",
+"C": "Do splatnosti FRA.",
+"D": "Jeden den."
+},
+"correct": "B",
+"explainCorrect": "Swapy jsou obvykle dlouhodobé nástroje řízení úrokového rizika, často v horizontu několika let (např. 2–10 let).",
+"explainWrong": {
+"A": "Pro velmi krátká období se používají jiné nástroje (např. depozita nebo OIS).",
+"B": "",
+"C": "FRA je samostatný krátkodobý nástroj; splatnost swapu na něj není vázána.",
+"D": "Jednodenní horizont je typický spíše pro overnight instrumenty, ne pro swapy."
+}
+},
+{
+"id": "certifikaty_020",
+"topic": "Investiční certifikáty",
+"question": "Co je typické pro plain vanilla investiční certifikáty?",
+"options": {
+"A": "Kopírují vývoj podkladového aktiva.",
+"B": "Mají garantovaný výnos.",
+"C": "Obsahují bariéry.",
+"D": "Mají nepravidelné cash flow."
+},
+"correct": "A",
+"explainCorrect": "Plain vanilla (trackovací/indexové) certifikáty typicky kopírují vývoj podkladového aktiva (např. 1:1).",
+"explainWrong": {
+"A": "",
+"B": "Čisté certifikáty nesou tržní riziko podkladu; výnos není garantovaný.",
+"C": "Bariéry jsou typické pro strukturované certifikáty, ne pro plain vanilla.",
+"D": "Výnosem bývá hlavně cenový rozdíl; nepravidelné cash flow není typická vlastnost."
+}
+},
+{
+"id": "certifikaty_021",
+"topic": "Investiční certifikáty",
+"question": "Diskontovaný certifikát nabízí:",
+"options": {
+"A": "Neomezený výnos.",
+"B": "Cenový diskont výměnou za omezený výnos (CAP).",
+"C": "Garantovaný výnos.",
+"D": "Pákový efekt."
+},
+"correct": "B",
+"explainCorrect": "Investor kupuje certifikát se slevou, ale vzdává se zisku nad určitou hranici (CAP).",
+"explainWrong": {
+"A": "Existence CAPu omezuje maximální možný zisk.",
+"B": "",
+"C": "Stále jde o rizikový produkt; diskont neznamená garanci výnosu.",
+"D": "Diskontované certifikáty nejsou primárně pákovým nástrojem; jsou spíše defenzivnější."
+}
+},
+{
+"id": "certifikaty_022",
+"topic": "Investiční certifikáty",
+"question": "Turbo certifikát je charakteristický tím, že:",
+"options": {
+"A": "Má garantovanou návratnost.",
+"B": "Nemá páku.",
+"C": "Je pákový produkt (long / short).",
+"D": "Slouží pouze k zajištění."
+},
+"correct": "C",
+"explainCorrect": "Turbo certifikáty jsou pákové produkty (long/short) a typicky obsahují knock-out bariéru, při jejímž dosažení certifikát zaniká.",
+"explainWrong": {
+"A": "Turbo certifikáty negarantují návratnost; při zásahu bariéry může dojít k velké až totální ztrátě.",
+"B": "Turbo certifikát je definován právě svou pákou.",
+"C": "",
+"D": "Lze je použít i k zajištění, ale v praxi jsou často používány hlavně ke spekulaci."
+}
+},
+{
+"id": "efa_styl_023",
+"topic": "Testové otázky (EFA styl)",
+"question": "Opční pozice short call znamená:",
+"options": {
+"A": "Koupenou call opci.",
+"B": "Prodanou call opci.",
+"C": "Koupenou put opci.",
+"D": "Prodanou put opci."
+},
+"correct": "B",
+"explainCorrect": "Short pozice u derivátů znamená prodej (vystavení) kontraktu.",
+"explainWrong": {
+"A": "To je Long Call pozice.",
+"B": "",
+"C": "To je Long Put pozice.",
+"D": "To je Short Put pozice."
+}
+},
+{
+"id": "efa_styl_024",
+"topic": "Testové otázky (EFA styl)",
+"question": "Pokud je call opce při expiraci ITM:",
+"options": {
+"A": "Bude uplatněna.",
+"B": "Nebude uplatněna.",
+"C": "Bude uplatněna pouze put opce.",
+"D": "Neuplatní se žádná opce."
+},
+"correct": "A",
+"explainCorrect": "ITM znamená, že uplatnění je výhodné (strike je lepší než tržní cena), proto držitel opci uplatní.",
+"explainWrong": {
+"A": "",
+"B": "Neuplatnění ITM opce by znamenalo zbytečnou finanční ztrátu.",
+"C": "Uplatnění call opce nezávisí na existenci nebo stavu put opce.",
+"D": "ITM opce se uplatňují; bezcenně expirují typicky OTM opce."
+}
+},
+{
+"id": "efa_styl_025",
+"topic": "Testové otázky (EFA styl)",
+"question": "Jak zjistíte vnitřní hodnotu call opce v pozici ITM?",
+"options": {
+"A": "Je nulová.",
+"B": "Rovná se ceně opce.",
+"C": "Nelze stanovit.",
+"D": "Spotová cena – strike."
+},
+"correct": "D",
+"explainCorrect": "Vnitřní hodnota call opce (ITM) je kladný rozdíl Spot − Strike.",
+"explainWrong": {
+"A": "Nulovou vnitřní hodnotu mají OTM a ATM call opce.",
+"B": "Cena opce zahrnuje i časovou hodnotu; vnitřní hodnota je obvykle nižší než prémie.",
+"C": "Je to přesně definovaná matematická hodnota.",
+"D": ""
+}
+},
+{
+"id": "efa_styl_026",
+"topic": "Testové otázky (EFA styl)",
+"question": "Jak se chová míra participace u zajištěného fondu založeného na put opci při nízkých sazbách?",
+"options": {
+"A": "Je vždy nízká.",
+"B": "Je vyšší.",
+"C": "Je nezávislá na sazbách.",
+"D": "Klesá s volatilitou."
+},
+"correct": "B",
+"explainCorrect": "Nízké sazby ovlivňují konstrukci zajištěných produktů; mohou umožnit vyšší participaci díky odlišnému rozpočtu mezi „bezpečnou“ složkou a opční složkou.",
+"explainWrong": {
+"A": "Sazby mají na strukturu zajištěných fondů zásadní vliv; nelze říci, že je participace vždy nízká.",
+"B": "",
+"C": "Sazby jsou klíčovým parametrem při konstrukci zajištěných fondů.",
+"D": "Volatilita participaci ovlivňuje, ale otázka se ptá primárně na vliv úrokových sazeb."
+}
+},
+{
+"id": "efa_styl_027",
+"topic": "Testové otázky (EFA styl)",
+"question": "Fond typu „airbag“ je:",
+"options": {
+"A": "Vhodný místo státního dluhopisu.",
+"B": "Spíše nevhodný pro zcela konzervativního investora.",
+"C": "Čistě měnová spekulace.",
+"D": "Bez použití derivátů."
+},
+"correct": "B",
+"explainCorrect": "Airbag (často konstrukce typu bonus/airbag) chrání jen do určité úrovně poklesu; po proražení bariéry může investor utrpět výrazné ztráty.",
+"explainWrong": {
+"A": "Státní dluhopisy mají zpravidla výrazně nižší riziko ztráty nominální hodnoty než airbag produkty.",
+"B": "",
+"C": "Jde typicky o produkt navázaný na akcie/komodity, ne čistě FX spekulaci.",
+"D": "Konstrukce airbagu je založena na kombinaci derivátů (např. opcí)."
+}
+},
+{
+"id": "efa_styl_028",
+"topic": "Testové otázky (EFA styl)",
+"question": "Pokud je put opce při expiraci OTM:",
+"options": {
+"A": "Bude uplatněna.",
+"B": "Nebude uplatněna.",
+"C": "Bude uplatněna call opce.",
+"D": "Obě opce budou uplatněny."
+},
+"correct": "B",
+"explainCorrect": "OTM znamená, že uplatnění by bylo nevýhodné, proto put opce vyprší bezcenně a neuplatní se.",
+"explainWrong": {
+"A": "Uplatnění OTM put opce by znamenalo prodej za horší cenu než na trhu, což nedává smysl.",
+"B": "",
+"C": "Stav put opce neříká nic o tom, zda investor drží call opci a zda je ta ITM.",
+"D": "OTM put opce se neuplatňuje; nelze tvrdit, že se uplatní obě opce."
+}
+},
+{
+"id": "efa_styl_029",
+"topic": "Testové otázky (EFA styl)",
+"question": "Jaká je časová hodnota ATM opce?",
+"options": {
+"A": "Nulová.",
+"B": "Rovná se celé ceně opce.",
+"C": "Rovná se vnitřní hodnotě.",
+"D": "Rozdíl spot a strike."
+},
+"correct": "B",
+"explainCorrect": "U ATM opce je vnitřní hodnota nulová (Spot = Strike), proto celou prémii tvoří časová hodnota.",
+"explainWrong": {
+"A": "Časová hodnota u ATM opcí nebývá nulová; často je naopak relativně vysoká.",
+"B": "",
+"C": "Vnitřní hodnota je u ATM opce nula, zatímco cena opce je kladná.",
+"D": "Rozdíl spot a strike je u ATM roven nule, a to odpovídá vnitřní hodnotě, ne časové hodnotě."
+}
+},
+{
+"id": "efa_styl_030",
+"topic": "Testové otázky (EFA styl)",
+"question": "U zajištěného fondu založeného na call opci je participace:",
+"options": {
+"A": "Vždy nižší než 50 %.",
+"B": "Tím nižší, čím vyšší je opční prémie.",
+"C": "Tím vyšší, čím vyšší je prémie.",
+"D": "Nezávislá na sazbách."
+},
+"correct": "B",
+"explainCorrect": "Fond má omezený rozpočet na nákup opcí; pokud jsou opce drahé (vysoká prémie), nakoupí jich méně, a participace na růstu podkladu klesá.",
+"explainWrong": {
+"A": "Participace může být různá (i 100 %), záleží na tržních podmínkách (sazby, volatilita, cena opcí).",
+"B": "",
+"C": "Je to naopak: vyšší prémie obvykle snižuje dostupný počet opcí a tím i participaci.",
+"D": "Úrokové sazby ovlivňují, kolik prostředků zbude na opční složku po zajištění jistiny."
+}
+}
 ]
