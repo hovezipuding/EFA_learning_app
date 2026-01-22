@@ -1,0 +1,38 @@
+[
+  {
+    "id": "DE-001",
+    "topic": "Opce",
+    "question": "Které tvrzení o kupní opci (call) je správné?",
+    "options": {
+      "A": "Dává držiteli povinnost koupit podklad",
+      "B": "Dává držiteli právo koupit podklad za předem danou cenu",
+      "C": "Dává držiteli právo prodat podklad za předem danou cenu",
+      "D": "Je bezriziková investice"
+    },
+    "correct": "B",
+    "explainCorrect": "Call opce dává držiteli právo (ne povinnost) koupit podklad za realizační cenu do/ke dni expirace.",
+    "explainWrong": {
+      "A": "Povinnost má typicky vypisovatel, ne držitel.",
+      "C": "To je popis prodejní opce (put).",
+      "D": "Opce nesou riziko ztráty prémie a další rizika."
+    }
+  },
+  {
+    "id": "DE-002",
+    "topic": "Futures",
+    "question": "Co nejlépe vystihuje futures kontrakt?",
+    "options": {
+      "A": "Neregulovaný OTC kontrakt bez marží",
+      "B": "Standardizovaný burzovní kontrakt s denním vypořádáním marží",
+      "C": "Je to totéž co opce",
+      "D": "Je to vždy zajištění bez rizika"
+    },
+    "correct": "B",
+    "explainCorrect": "Futures jsou standardizované burzovní kontrakty s marginingem a denním přeceňováním (mark-to-market).",
+    "explainWrong": {
+      "A": "To spíše popisuje forwardy/OTC dohody.",
+      "C": "Opce dávají právo, futures závazek (povinnost).",
+      "D": "Zajištění snižuje riziko, ale nikdy není úplně bez rizika (basis risk apod.)."
+    }
+  }
+]

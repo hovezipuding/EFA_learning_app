@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EFA – Výuková appka</title>
+  <style>
+    :root { --bd:#e6e6e6; --muted:#666; --bg:#fafafa; --card:#fff; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; margin:0; background:var(--bg); }
+    .wrap { max-width: 980px; margin: 18px auto; padding: 0 14px 40px; }
+    .top { display:flex; gap:12px; flex-wrap:wrap; align-items:center; justify-content:space-between; }
+    .card { background:var(--card); border:1px solid var(--bd); border-radius:16px; padding:14px; }
+    .row { display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+    select, button, input { font: inherit; }
+    select, input { padding:10px 12px; border-radius:12px; border:1px solid var(--bd); background:#fff; }
+    button { padding:10px 12px; border-radius:12px; border:1px solid var(--bd); background:#fff; cursor:pointer; }
+    button:disabled { opacity:.55; cursor:default; }
+    .muted { color:var(--muted); font-size: 13px; }
+    .qmeta { display:flex; gap:10px; flex-wrap:wrap; justify-content:space-between; align-items:center; margin-bottom:8px; }
+    .q { font-size: 20px; margin: 6px 0 14px; }
+    .opts { display:grid; gap:10px; }
+    .opt { text-align:left; padding:12px 14px; border-radius:14px; border:1px solid #d0d0d0; background:#fff; }
+    .opt.correct { border-color:#2e7d32; background:#e8f5e9; }
+    .opt.wrong { border-color:#c62828; background:#ffebee; }
+    .explain { margin-top: 14px; padding: 12px; border-radius: 14px; border:1px solid var(--bd); background:#f7f7f7; }
+    .explain h3 { margin:0 0 8px; font-size: 16px; }
+    .explain p { margin: 6px 0; }
+    .pill { display:inline-block; padding:4px 10px; border-radius:999px; border:1px solid var(--bd); background:#fff; font-size:12px; }
+    .spacer { flex: 1; }
+    .danger { border-color:#f2c6c6; background:#fff5f5; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div class="card" style="flex:1;">
+        <div class="row">
+          <strong>EFA – Výuková appka</strong>
+          <span class="pill" id="modePill">Learn</span>
+          <span class="pill" id="topicPill">Vše</span>
+          <span class="spacer"></span>
+          <span class="muted" id="progressText">0/0</span>
+        </div>
+
+        <div class="row" style="margin-top:10px;">
+          <label class="muted">Okruh</label>
+          <select id="datasetSelect">
+            <option value="portfolio">Teorie portfolia</option>
+            <option value="dluhopisy">Dluhopisy</option>
+            <option value="derivaty">Deriváty</option>
+          </select>
+
+          <label class="muted">Režim</label>
+          <select id="modeSelect">
+            <option value="learn">Learn (ukazuje vše hned)</option>
+            <option value="practice">Practice (detail špatných volitelně)</option>
+            <option value="mistakes">Repeat mistakes (jen chyby)</option>
+          </select>
+
+          <label class="muted">Téma</label>
+          <select id="topicSelect"></select>
+
+          <label class="muted">Pořadí</label>
+          <select id="orderSelect">
+            <option value="random">Náhodně</option>
+            <option value="inorder">Postupně</option>
+          </select>
+
+          <button id="resetStatsBtn" class="danger" title="Smaže uložené statistiky a seznam chyb">Reset statistik</button>
+        </div>
+      </div>
+    </div>
+
+    <div style="height:12px"></div>
+
+    <div class="card">
+      <div class="qmeta">
+        <div class="muted">
+          <span><strong>ID:</strong> <span id="qid">–</span></span>
+          <span style="margin-left:10px;"><strong>Téma:</strong> <span id="qtopic">–</span></span>
+        </div>
+        <div class="muted">
+          Správně: <strong id="okCount">0</strong> • Špatně: <strong id="badCount">0</strong>
+        </div>
+      </div>
+
+      <div class="q" id="question">Načítám…</div>
+      <div class="opts" id="options"></div>
+
+      <div class="row" style="margin-top:14px;">
+        <button id="showDetailsBtn" disabled>Zobrazit podrobnosti</button>
+        <button id="retryBtn" disabled>Zkusit znovu</button>
+        <span class="spacer"></span>
+        <button id="nextBtn" disabled>Další otázka</button>
+      </div>
+
+      <div class="explain" id="explain" style="display:none;"></div>
+    </div>
+
+    <div style="height:12px"></div>
+    <div class="muted">
+      Tip: Režim <strong>Repeat mistakes</strong> ti bude opakovat jen otázky, které jsi někdy označil špatně (ukládá se lokálně v prohlížeči).
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

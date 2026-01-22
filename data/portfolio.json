@@ -1,0 +1,629 @@
+[
+{
+"id": "diverzifikace_001",
+"topic": "Diverzifikace portfolia",
+"question": "Co nejlépe popisuje význam diverzifikace v portfoliu?",
+"options": {
+"A": "Nemá žádný vliv na výnos ani riziko.",
+"B": "Zvyšuje volatilitu portfolia.",
+"C": "Je důležitá pouze u dluhopisových fondů.",
+"D": "Snižuje celkové riziko díky rozložení investic."
+},
+"correct": "D",
+"explainCorrect": "Diverzifikace snižuje riziko rozložením investic mezi aktiva s odlišným chováním.",
+"explainWrong": {
+"A": "Diverzifikace má zásadní vliv na riziko i stabilitu portfolia.",
+"B": "Právě naopak – diverzifikace volatilitu (kolísavost) snižuje.",
+"C": "Diverzifikace je klíčová u všech tříd aktiv, zejména u akcií.",
+"D": ""
+}
+},
+{
+"id": "diverzifikace_002",
+"topic": "Diverzifikace portfolia",
+"question": "Které portfolio má pravděpodobně nejvyšší diverzifikaci?",
+"options": {
+"A": "Portfolio obsahující pouze automobilky.",
+"B": "Portfolio firem z energetického sektoru.",
+"C": "Portfolio obsahující akcie několika globálních firem z různých sektorů.",
+"D": "Portfolio malých evropských bank."
+},
+"correct": "C",
+"explainCorrect": "Diverzifikace napříč sektory a regiony snižuje korelaci aktiv.",
+"explainWrong": {
+"A": "Jde o sektorovou koncentraci; útlum autoprůmyslu by zasáhl celé portfolio.",
+"B": "Fokus na jeden sektor zvyšuje riziko specifických šoků v daném odvětví.",
+"C": "",
+"D": "Kombinuje geografické i sektorové riziko (koncentrace na banky v Evropě)."
+}
+},
+{
+"id": "diverzifikace_003",
+"topic": "Diverzifikace portfolia",
+"question": "Jak lze nejlépe snížit riziko akciového portfolia složeného z podobných fondů?",
+"options": {
+"A": "Nákupem dalších fondů ze stejného regionu.",
+"B": "Zařazením jiné třídy aktiv, např. dluhopisů nebo nemovitostí.",
+"C": "Změnou na dividendové třídy.",
+"D": "Měnovým zajištěním."
+},
+"correct": "B",
+"explainCorrect": "Přidání nekorelovaných aktiv (dluhopisy, reality) efektivně snižuje volatilitu akciové složky.",
+"explainWrong": {
+"A": "Přidáním fondů ze stejné oblasti diverzifikaci proti regionálním šokům nezvýšíte.",
+"B": "",
+"C": "Změna formy výplaty (dividend) neovlivňuje tržní riziko podkladových aktiv.",
+"D": "Měnové zajištění řeší kurzy, ale nesnižuje riziko poklesu cen samotných akcií."
+}
+},
+{
+"id": "diverzifikace_004",
+"topic": "Diverzifikace portfolia",
+"question": "Jak lze snížit riziko příliš lokálního portfolia?",
+"options": {
+"A": "Nákupem dalších českých akcií.",
+"B": "Zvýšením váhy domácích státních dluhopisů.",
+"C": "Zařazením investic z jiných geografických regionů.",
+"D": "Zvýšením hotovosti."
+},
+"correct": "C",
+"explainCorrect": "Geografická diverzifikace chrání portfolio před lokálními ekonomickými propady.",
+"explainWrong": {
+"A": "To by koncentraci na lokální trh (home bias) ještě nebezpečně zvýšilo.",
+"B": "Stále zůstáváte v rámci jednoho státu a měny, riziko regionu se nesnižuje.",
+"C": "",
+"D": "Hotovost sice sníží volatilitu, ale neřeší geografickou nevyváženost portfolia."
+}
+},
+{
+"id": "korelace_005",
+"topic": "Korelace a riziko portfolia",
+"question": "Jak korelace mezi dvěma aktivy ovlivňuje možnosti diverzifikace?",
+"options": {
+"A": "Vyšší korelace snižuje efekt diverzifikace.",
+"B": "Korelace určuje pouze výši výnosu.",
+"C": "Vyšší korelace zvyšuje efekt diverzifikace.",
+"D": "Korelace nemá vliv na riziko."
+},
+"correct": "A",
+"explainCorrect": "Pokud se aktiva hýbou identicky (vysoká korelace), rozložení investic riziko nesnižuje.",
+"explainWrong": {
+"A": "",
+"B": "Korelace určuje především to, jak se aktiva hýbou vůči sobě, což ovlivňuje riziko.",
+"C": "Vyšší korelace znamená, že aktiva jdou stejným směrem, což diverzifikaci oslabuje.",
+"D": "Korelace je základním prvkem pro výpočet a řízení celkového rizika portfolia."
+}
+},
+{
+"id": "korelace_006",
+"topic": "Korelace a riziko portfolia",
+"question": "Jaký vliv má záporná korelace mezi dvěma aktivy na riziko portfolia?",
+"options": {
+"A": "Riziko se zvyšuje.",
+"B": "Riziko se nemění.",
+"C": "Riziko portfolia se výrazně snižuje.",
+"D": "Výnos klesá na nulu."
+},
+"correct": "C",
+"explainCorrect": "Aktiva se zápornou korelací se pohybují proti sobě, čímž vyhlazují kolísání portfolia.",
+"explainWrong": {
+"A": "Záporná korelace funguje jako protiváha, která celkové riziko tlumí.",
+"B": "Změna je zásadní – aktiva se navzájem vyvažují a snižují výkyvy.",
+"C": "",
+"D": "Záporná korelace tlumí volatilitu, ale nemá přímou souvislost s nulovým výnosem."
+}
+},
+{
+"id": "rebalancovani_007",
+"topic": "Rebalancování a správa portfolia",
+"question": "Proč je rebalancování pro investora důležité?",
+"options": {
+"A": "Maximalizuje krátkodobý výnos.",
+"B": "Snižuje počet investičních tříd.",
+"C": "Automaticky zajišťuje měnové riziko.",
+"D": "Pomáhá udržet cílové váhy a stabilizovat riziko portfolia."
+},
+"correct": "D",
+"explainCorrect": "Rebalancování vrací portfolio k původně zvolenému rizikovému profilu.",
+"explainWrong": {
+"A": "Rebalancování je nástroj řízení rizika, nikoliv spekulace na krátkodobý zisk.",
+"B": "Rebalancování udržuje stávající třídy v původním poměru, nemaže je.",
+"C": "To je samostatná technika (hedging), rebalancování řeší pouze váhy aktiv.",
+"D": ""
+}
+},
+{
+"id": "strategie_008",
+"topic": "Investiční strategie",
+"question": "Jak se nazývá strategie zaměřená na nákup podhodnocených akcií?",
+"options": {
+"A": "Hodnotová investiční strategie.",
+"B": "Spekulativní strategie.",
+"C": "Růstová strategie.",
+"D": "Indexová strategie."
+},
+"correct": "A",
+"explainCorrect": "Hodnotové investování (Value) hledá akcie, jejichž tržní cena je nižší než vnitřní hodnota.",
+"explainWrong": {
+"A": "",
+"B": "Spekulace sází na rychlý pohyb ceny bez ohledu na vnitřní hodnotu firmy.",
+"C": "Růstová strategie hledá firmy s rychlou expanzí, které mohou být i drahé.",
+"D": "Indexová strategie pasivně kopíruje trh bez ohledu na to, zda je akcie levná."
+}
+},
+{
+"id": "rizika_009",
+"topic": "Rizika investic",
+"question": "Co nejlépe vystihuje operační riziko?",
+"options": {
+"A": "Riziko poklesu cen akcií.",
+"B": "Měnové riziko.",
+"C": "Riziko chyb procesů, systémů nebo lidí.",
+"D": "Kreditní riziko emitenta."
+},
+"correct": "C",
+"explainCorrect": "Operační riziko zahrnuje selhání vnitřních mechanismů instituce nebo lidský faktor.",
+"explainWrong": {
+"A": "Pokles cen akcií se řadí pod tržní riziko.",
+"B": "Měnové riziko souvisí s pohyby kurzů, nikoliv s fungováním instituce.",
+"C": "",
+"D": "Kreditní riziko řeší schopnost dlužníka splácet, nikoliv vnitřní procesy."
+}
+},
+{
+"id": "rizika_010",
+"topic": "Rizika investic",
+"question": "Jak lze nejefektivněji snížit riziko dluhopisového portfolia?",
+"options": {
+"A": "Investovat do zahraničních dluhopisů.",
+"B": "Zařadit korporátní dluhopisy.",
+"C": "Zvýšit podíl akcií.",
+"D": "Zařadit fond peněžního trhu s krátkou durací."
+},
+"correct": "D",
+"explainCorrect": "Kratší durace snižuje citlivost portfolia na změny úrokových sazeb.",
+"explainWrong": {
+"A": "Zahraniční dluhopisy mohou přidat měnové riziko, které celkové riziko zvýší.",
+"B": "Korporátní dluhopisy jsou rizikovější než státní (hrozí bankrot firmy).",
+"C": "Akcie jsou obecně rizikovější než dluhopisy, riziko portfolia by vzrostlo.",
+"D": ""
+}
+},
+{
+"id": "bezrizikova_sazba_011",
+"topic": "Bezriziková sazba a benchmark",
+"question": "Která sazba se nejčastěji používá jako bezriziková úroková míra?",
+"options": {
+"A": "Repo sazba ČNB.",
+"B": "Výnos tříměsíčních státních pokladničních poukázek.",
+"C": "Výnos 10letých dluhopisů.",
+"D": "Průměrná inflace."
+},
+"correct": "B",
+"explainCorrect": "Krátkodobé vládní cenné papíry jsou považovány za nejbližší bezpečné aktivum s minimálním rizikem.",
+"explainWrong": {
+"A": "Jde o měnověpolitický nástroj banky, nikoliv o sazbu běžně dostupnou investorům.",
+"B": "",
+"C": "U desetiletých dluhopisů je už přítomno značné úrokové riziko (změna ceny při pohybu sazeb).",
+"D": "Inflace není úroková míra, ale tempo růstu cen v ekonomice."
+}
+},
+{
+"id": "benchmark_012",
+"topic": "Bezriziková sazba a benchmark",
+"question": "Jaký je hlavní účel benchmarku u investičního fondu?",
+"options": {
+"A": "Udává kreditní kvalitu fondu.",
+"B": "Zaručuje minimální výnos.",
+"C": "Slouží k porovnání výkonnosti fondu.",
+"D": "Určuje maximální poplatky."
+},
+"correct": "C",
+"explainCorrect": "Benchmark je srovnávací index, vůči kterému se měří úspěšnost správy fondu.",
+"explainWrong": {
+"A": "Kreditní kvalitu fondu určuje rating (např. od agentur Moody's nebo S&P).",
+"B": "Benchmark je pouze srovnávací laťka, žádný výnos investorovi nezaručuje.",
+"C": "",
+"D": "Poplatky jsou dány nákladovostí fondu (TER), s benchmarkem nesouvisí."
+}
+},
+{
+"id": "alfa_beta_013",
+"topic": "Alfa, beta a výkonnost",
+"question": "Kdy portfolio manažer dosahuje kladné alfy?",
+"options": {
+"A": "Když překonává výkonnost benchmarku.",
+"B": "Má nižší volatilitu.",
+"C": "Má betu < 1.",
+"D": "Investuje do státních dluhopisů."
+},
+"correct": "A",
+"explainCorrect": "Alfa představuje nadvýnos vytvořený aktivní správou nad rámec tržního výnosu.",
+"explainWrong": {
+"A": "",
+"B": "Nízká volatilita je dobrá, ale alfa měří výnos navíc, nikoliv stabilitu.",
+"C": "Beta < 1 znamená, že je portfolio defenzivní, ale neříká nic o nadvýnosu manažera.",
+"D": "Samotná držba dluhopisů neznamená kladnou alfu vůči jejich benchmarku."
+}
+},
+{
+"id": "alfa_beta_014",
+"topic": "Alfa, beta a výkonnost",
+"question": "Který index je vhodným benchmarkem pro fond evropských akcií?",
+"options": {
+"A": "EuroStoxx 50.",
+"B": "MSCI Emerging Markets.",
+"C": "Nikkei 225.",
+"D": "S&P 500."
+},
+"correct": "A",
+"explainCorrect": "EuroStoxx 50 reprezentuje největší a nejlikvidnější akcie v eurozóně.",
+"explainWrong": {
+"A": "",
+"B": "Tento index sleduje rozvíjející se trhy (Čína, Indie, Brazílie atd.).",
+"C": "Jde o hlavní akciový index v Japonsku.",
+"D": "S&P 500 je index největších společností kótovaných v USA."
+}
+},
+{
+"id": "preference_015",
+"topic": "Portfolio a preference investora",
+"question": "Které portfolio má pravděpodobně nejnižší riziko?",
+"options": {
+"A": "Akcie rozvíjejících se trhů.",
+"B": "Technologické akcie.",
+"C": "Kombinace akcií, státních dluhopisů a peněžního trhu.",
+"D": "REIT fondy a automobilky."
+},
+"correct": "C",
+"explainCorrect": "Smíšené portfolio využívá diverzifikaci napříč různými třídami aktiv pro snížení volatility.",
+"explainWrong": {
+"A": "Rozvíjející se trhy jsou vysoce volatilní a rizikové.",
+"B": "Technologický sektor podléhá velkým výkyvům a sektorovému riziku.",
+"C": "",
+"D": "Obě složky jsou úzce zaměřené a podléhají specifickým tržním šokům."
+}
+},
+{
+"id": "preference_016",
+"topic": "Portfolio a preference investora",
+"question": "Jakou kombinaci aktiv obvykle volí rizikově averzní investor?",
+"options": {
+"A": "Vyšší zastoupení méně volatilních aktiv.",
+"B": "Pouze komodity.",
+"C": "Výhradně růstové akcie.",
+"D": "Nejvyšší volatilitu."
+},
+"correct": "A",
+"explainCorrect": "Rizikově averzní investor upřednostňuje stabilitu a ochranu kapitálu před vysokým výnosem.",
+"explainWrong": {
+"A": "",
+"B": "Komodity jsou extrémně volatilní a pro konzervativce nevhodné.",
+"C": "Růstové akcie jsou náchylné k prudkým propadům cen.",
+"D": "Vysoká volatilita je přesný opak toho, co rizikově averzní investor hledá."
+}
+},
+{
+"id": "preference_017",
+"topic": "Portfolio a preference investora",
+"question": "Které Sharpe ratio je pro rizikově averzního investora nejvýhodnější?",
+"options": {
+"A": "< 0,5",
+"B": "Nejvyšší dostupné Sharpe ratio.",
+"C": "0",
+"D": "Závislé jen na alfě."
+},
+"correct": "B",
+"explainCorrect": "Vyšší Sharpe ratio znamená lepší výnos na jednotku podstoupeného rizika.",
+"explainWrong": {
+"A": "Nízké ratio znamená, že za podstoupené riziko dostáváte příliš malý výnos.",
+"B": "",
+"C": "Nulové ratio znamená, že investice nevydělala nic nad bezrizikovou sazbu.",
+"D": "Sharpe ratio posuzuje celkový nadvýnos k celkovému riziku, alfa je jen část."
+}
+},
+{
+"id": "preference_018",
+"topic": "Portfolio a preference investora",
+"question": "Které portfolio rizikově averzní investor obvykle odmítne?",
+"options": {
+"A": "Vysoká volatilita a nízký výnos.",
+"B": "Vysoké Sharpe ratio.",
+"C": "Vyvážený poměr rizika a výnosu.",
+"D": "Nízká korelace aktiv."
+},
+"correct": "A",
+"explainCorrect": "Takové portfolio nenabízí adekvátní odměnu za podstoupené riziko.",
+"explainWrong": {
+"A": "",
+"B": "Vysoké Sharpe ratio je pro každého investora žádoucí (efektivní výnos).",
+"C": "Vyváženost je cílem většiny investorů, není důvod ji odmítat.",
+"D": "Nízká korelace je u portfolia vítaná vlastnost pro snížení rizika."
+}
+},
+{
+"id": "preference_019",
+"topic": "Portfolio a preference investora",
+"question": "Rizikově averzní investor porovnává dvě portfolia – které je atraktivnější?",
+"options": {
+"A": "Portfolio s vyšším výnosem bez ohledu na riziko.",
+"B": "Portfolio s nižší betu.",
+"C": "Kombinace obou.",
+"D": "Portfolio s vyšším Sharpe ratio."
+},
+"correct": "D",
+"explainCorrect": "Sharpe ratio je nejlepším měřítkem efektivity investice pro konzervativního investora.",
+"explainWrong": {
+"A": "Ignorování rizika je pro rizikově averzního investora nepřijatelné.",
+"B": "Nízká beta je sice dobrá, ale sama o sobě neříká, zda je výnos adekvátní.",
+"C": "Sharpe ratio je matematicky přesnější vyjádření této kombinace v jednom čísle.",
+"D": ""
+}
+},
+{
+"id": "preference_020",
+"topic": "Portfolio a preference investora",
+"question": "Investor vybírá mezi fondy X a Y – které rozhodnutí je nejlepší?",
+"options": {
+"A": "Fond s vyšším výnosem.",
+"B": "Fond s vyšším Sharpe ratio a nízkou korelací.",
+"C": "Fond s vyšší volatilitou.",
+"D": "Oba jsou stejné."
+},
+"correct": "B",
+"explainCorrect": "Tato kombinace zajišťuje nejlepší poměr výnosu k riziku a přínos pro diverzifikaci.",
+"explainWrong": {
+"A": "Vyšší výnos může být vykoupen neúměrně vysokým rizikem.",
+"B": "",
+"C": "Vyšší volatilita je pro rizikově averzního investora zpravidla nežádoucí.",
+"D": "Fondy s různým Sharpe ratiem a korelací mají pro investora jinou hodnotu."
+}
+},
+{
+"id": "information_ratio_021",
+"topic": "Information Ratio",
+"question": "Který fond preferuje rizikově averzní investor podle Information Ratio?",
+"options": {
+"A": "Fond s nejvyšším tracking error.",
+"B": "Fond s nejvyšším IR.",
+"C": "Fond s nejvyšším výnosem.",
+"D": "Fond s nejnižší alfou."
+},
+"correct": "B",
+"explainCorrect": "Vysoké IR značí, že manažer dosahuje nadvýnosu konzistentně a efektivně vůči benchmarku.",
+"explainWrong": {
+"A": "Vysoký tracking error znamená velkou nejistotu a odchylku od strategie.",
+"B": "",
+"C": "Samotný výnos nezohledňuje „náklady“ na riziko spojené s aktivní správou.",
+"D": "Nízká alfa znamená, že manažer nepřidává žádnou hodnotu nad rámec trhu."
+}
+},
+{
+"id": "akcie_korelace_022",
+"topic": "Akcie a korelace",
+"question": "Kterou akcii zvolí investor usilující o snížení rizika portfolia?",
+"options": {
+"A": "Akcii s vysokou kladnou korelací.",
+"B": "Akcii s negativní korelací k portfoliu.",
+"C": "Akcii s vyšší volatilitou.",
+"D": "Obě jsou stejné."
+},
+"correct": "B",
+"explainCorrect": "Negativní korelace způsobuje, že se akcie pohybuje proti zbytku portfolia, čímž tlumí celkový pokles.",
+"explainWrong": {
+"A": "Kladná korelace znamená, že akcie padá spolu s trhem, což riziko nesníží.",
+"B": "",
+"C": "Přidání vysoce kolísavé akcie celkové riziko portfolia obvykle zvyšuje.",
+"D": "Vliv na riziko je u těchto variant diametrálně odlišný."
+}
+},
+{
+"id": "beta_capm_023",
+"topic": "Beta a CAPM",
+"question": "Co vyjadřuje beta koeficient akcie v modelu CAPM?",
+"options": {
+"A": "Absolutní volatilitu.",
+"B": "Citlivost akcie na pohyb trhu.",
+"C": "Dividendový výnos.",
+"D": "Pravděpodobnost zisku."
+},
+"correct": "B",
+"explainCorrect": "Beta měří systematické riziko a ukazuje, o kolik se změní cena akcie při pohybu trhu o 1 %.",
+"explainWrong": {
+"A": "Absolutní volatilitu měří směrodatná odchylka (sigma), beta měří vztah k trhu.",
+"B": "",
+"C": "Dividendy nejsou do výpočtu bety přímo zahrnuty.",
+"D": "Beta je míra rizika, nikoliv indikátor pravděpodobnosti zisku."
+}
+},
+{
+"id": "beta_capm_024",
+"topic": "Beta a CAPM",
+"question": "Akcie s beta < 1 je typicky:",
+"options": {
+"A": "Agresivní.",
+"B": "Rizikovější než trh.",
+"C": "Defenzivní.",
+"D": "Spekulativní."
+},
+"correct": "C",
+"explainCorrect": "Akcie s betou menší než 1 kolísají méně než tržní index.",
+"explainWrong": {
+"A": "Agresivní akcie mají betu vyšší než 1 (rostou i klesají více než trh).",
+"B": "Beta pod 1 znamená, že akcie je naopak méně riziková (stabilnější) než trh.",
+"C": "",
+"D": "Spekulativní tituly mají obvykle velmi vysokou betu kvůli své nestabilitě."
+}
+},
+{
+"id": "beta_capm_025",
+"topic": "Beta a CAPM",
+"question": "Co znamená kladná alfa (α > 0)?",
+"options": {
+"A": "Vyšší volatilitu.",
+"B": "Správné ocenění.",
+"C": "Nadvýnos po zohlednění rizika.",
+"D": "Kopírování trhu."
+},
+"correct": "C",
+"explainCorrect": "Kladná alfa ukazuje, že investice vydělala více, než by odpovídalo jejímu riziku (betě).",
+"explainWrong": {
+"A": "Alfa vypovídá o výnosu, nikoliv o velikosti kolísání (volatilitě).",
+"B": "Pokud má aktivum nenulovou alfu, model CAPM naznačuje, že je oceněno chybně.",
+"C": "",
+"D": "Kopírování trhu (benchmarku) by znamenalo alfu rovnou nule."
+}
+},
+{
+"id": "beta_capm_026",
+"topic": "Beta a CAPM",
+"question": "Které portfolio leží na přímce kapitálového trhu (CML)?",
+"options": {
+"A": "Pouze akcie.",
+"B": "Nejnižší volatilita.",
+"C": "Kombinace bezrizikového aktiva a tržního portfolia.",
+"D": "Jakékoli efektivní portfolio."
+},
+"correct": "C",
+"explainCorrect": "CML zobrazuje všechna efektivní portfolia vzniklá kombinací tržního indexu a bezrizikové sazby.",
+"explainWrong": {
+"A": "Přímka CML vyžaduje zapojení bezrizikového aktiva, ne jen akcií.",
+"B": "Nejnižší volatilitu má bezrizikové aktivum, ale CML pokrývá celé spektrum kombinací.",
+"C": "",
+"D": "CML je specifická přímka spojující bezrizikovou sazbu s tržním portfoliem."
+}
+},
+{
+"id": "sigma_027",
+"topic": "Beta a CAPM",
+"question": "Co vyjadřuje směrodatná odchylka (sigma)?",
+"options": {
+"A": "Kreditní riziko.",
+"B": "Volatilitu výnosů.",
+"C": "Očekávaný výnos.",
+"D": "Maximální ztrátu."
+},
+"correct": "B",
+"explainCorrect": "Sigma měří, jak moc se skutečné výnosy odchylují od průměrného očekávaného výnosu.",
+"explainWrong": {
+"A": "Kreditní riziko řeší schopnost splácet, sigma měří kolísavost ceny.",
+"B": "",
+"C": "Očekávaný výnos je průměrná hodnota, sigma měří odchylku od tohoto průměru.",
+"D": "Maximální ztrátu měří spíše ukazatel Value at Risk (VaR)."
+}
+},
+{
+"id": "korelace_028",
+"topic": "Korelace a riziko portfolia",
+"question": "Jaký je hlavní přínos nulové korelace aktiv v portfoliu?",
+"options": {
+"A": "Vyšší výnos.",
+"B": "Nižší riziko portfolia.",
+"C": "Garantovaný výnos.",
+"D": "Eliminace inflace."
+},
+"correct": "B",
+"explainCorrect": "Pokud se aktiva pohybují nezávisle, celkové kolísání portfolia se snižuje.",
+"explainWrong": {
+"A": "Korelace neovlivňuje výnosy jednotlivých aktiv, pouze jejich společné riziko.",
+"B": "",
+"C": "V investování není ani nulová korelace zárukou kladného výnosu.",
+"D": "Proti inflaci pomáhají reálná aktiva, nikoliv korelace sama o sobě."
+}
+},
+{
+"id": "diverzifikace_029",
+"topic": "Diverzifikace portfolia",
+"question": "Jaký typ rizika diverzifikace eliminuje?",
+"options": {
+"A": "Systematické.",
+"B": "Tržní.",
+"C": "Jedinečné.",
+"D": "Inflační."
+},
+"correct": "C",
+"explainCorrect": "Diverzifikací lze odstranit riziko specifické pro konkrétní firmu nebo sektor (nesystematické riziko).",
+"explainWrong": {
+"A": "Systematické (tržní) riziko nelze diverzifikací odstranit, postihuje celý trh.",
+"B": "Tržní riziko je synonymum pro systematické riziko.",
+"C": "",
+"D": "Inflace ovlivňuje ekonomiku jako celek, diverzifikace ji nesmaže."
+}
+},
+{
+"id": "diverzifikace_030",
+"topic": "Diverzifikace portfolia",
+"question": "Proč fond s nízkou korelací zlepšuje portfolio?",
+"options": {
+"A": "Zvyšuje výnos.",
+"B": "Zlepšuje diverzifikaci.",
+"C": "Snižuje poplatky.",
+"D": "Eliminuje beta riziko."
+},
+"correct": "B",
+"explainCorrect": "Fond, který se nehýbe v souladu se zbytkem portfolia, efektivně rozkládá riziko.",
+"explainWrong": {
+"A": "Nízká korelace primárně tlumí propady, nezvyšuje vnitřní zisky aktiv.",
+"B": "",
+"C": "Korelace je statistická vlastnost a nemá žádný vliv na poplatky fondu.",
+"D": "Tržní riziko (beta) v portfoliu vždy zůstává, nízká korelace řeší ostatní složky."
+}
+},
+{
+"id": "preference_031",
+"topic": "Portfolio a preference investora",
+"question": "Jaké portfolio je vhodné pro rizikově averzního investora?",
+"options": {
+"A": "Nejvyšší výnos.",
+"B": "Nejvyšší volatilita.",
+"C": "Nejlepší poměr výnos / riziko.",
+"D": "Tržní portfolio."
+},
+"correct": "C",
+"explainCorrect": "Hledání maximálního výnosu při minimálním nutném riziku je základem konzervativního přístupu.",
+"explainWrong": {
+"A": "To je cíl agresivního investora, který je ochoten podstoupit extrémní riziko.",
+"B": "Vysoká volatilita je přesně to, čemu se rizikově averzní investor vyhýbá.",
+"C": "",
+"D": "Tržní portfolio může být pro velmi konzervativního člověka stále příliš kolísavé."
+}
+},
+{
+"id": "alokace_032",
+"topic": "Portfolio a preference investora",
+"question": "Co je hlavním cílem alokace aktiv?",
+"options": {
+"A": "Výběr produktu.",
+"B": "Časování trhu.",
+"C": "Řízení rizika a splnění cíle.",
+"D": "Minimalizace daní."
+},
+"correct": "C",
+"explainCorrect": "Alokace aktiv je nejdůležitějším faktorem určujícím celkovou výnosnost a rizikovost portfolia.",
+"explainWrong": {
+"A": "Výběr konkrétního produktu (stock picking) je až krokem po určení alokace.",
+"B": "Alokace je o dlouhodobém nastavení, nikoliv o snaze trefit dno nebo vrchol trhu.",
+"C": "",
+"D": "To je úkol daňové optimalizace, nikoliv strategie rozložení majetku."
+}
+},
+{
+"id": "efektivita_033",
+"topic": "Portfolio a preference investora",
+"question": "Kdy je investice považována za efektivní?",
+"options": {
+"A": "Má nejvyšší výnos.",
+"B": "Má nejnižší riziko.",
+"C": "Není jiné portfolio se stejným rizikem a vyšším výnosem.",
+"D": "Kopíruje benchmark."
+},
+"correct": "C",
+"explainCorrect": "Efektivní portfolio leží na „efektivní hranici“ a nabízí nejlepší možný výnos pro danou úroveň rizika.",
+"explainWrong": {
+"A": "Samotný vysoký výnos může být vykoupen neúměrně vysokým rizikem.",
+"B": "Nízké riziko nestačí, pokud je doprovázeno neadekvátně malým výnosem.",
+"C": "",
+"D": "Pasivní kopírování benchmarku není definicí efektivity ve smyslu poměru výnos/riziko."
+}
+}
+]
