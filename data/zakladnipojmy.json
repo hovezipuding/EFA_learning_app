@@ -1,401 +1,401 @@
 [
 {
-"id": "makro_001",
+"id": "makro_000",
 "topic": "Makroekonomie",
 "question": "Co je inflace?",
 "options": {
-"A": "Růst cenové hladiny zboží a služeb v čase.",
-"B": "Rozhodnutí o snížení objemu peněz v oběhu vydané státní autoritou.",
-"C": "Proces plošného zvyšování daní z přidané hodnoty napříč sektory.",
-"D": "Pokles cenové hladiny v rámci celé národní ekonomiky."
+"A": "Rozhodnutí centrální banky o plošném zvýšení úrokových sazeb u všech komerčních úvěrů.",
+"B": "Růst cenové hladiny.",
+"C": "Dlouhodobý proces snižování množství peněz v oběhu za účelem zvýšení jejich reálné hodnoty.",
+"D": "Stav, kdy HDP země překonává svůj dlouhodobý potenciál o více než pět procent."
 },
-"correct": "A",
-"explainCorrect": "Inflace vyjadřuje všeobecný nárůst cenové hladiny, což vede ke snížení kupní síly peněz.",
+"correct": "B",
+"explainCorrect": "Inflace je definována jako všeobecný nárůst cenové hladiny zboží a služeb v čase.",
 "explainWrong": {
-"A": "",
-"B": "Snížení objemu peněz je měnový nástroj, nikoliv definice samotného růstu cen.",
-"C": "Zvyšování daní může ceny ovlivnit, ale není to definice inflace jako takové.",
-"D": "Tento jev se nazývá deflace a představuje přesný opak inflace."
+"A": "Změna sazeb je reakcí na inflaci, nikoliv inflací samotnou.",
+"B": "",
+"C": "Toto popisuje deflační politiku, nikoliv definici inflace.",
+"D": "Toto popisuje stav ekonomiky, nikoliv definici jevu."
+}
+},
+{
+"id": "makro_001",
+"topic": "Makroekonomie",
+"question": "Co vyjadřuje index spotřebitelských cen (CPI)?",
+"options": {
+"A": "Celkový růst nominálních mezd a všech ostatních vedlejších příjmů domácností v daném roce.",
+"B": "Aktuální výši úrokových sazeb, které komerční banky nabízejí svým nejvýznamnějším klientům.",
+"C": "Komplexní vývoj všech akciových titulů a derivátů obchodovaných na tuzemském i zahraničním trhu.",
+"D": "Statistický ukazatel, který měří průměrnou změnu cen reprezentativního koše zboží a služeb nakupovaného průměrnou domácností."
+},
+"correct": "D",
+"explainCorrect": "CPI sleduje cenový pohyb u vzorku položek, který odráží výdaje běžného spotřebitele.",
+"explainWrong": {
+"A": "Indexy mezd jsou samostatnou statistikou a nesouvisí s cenovým indexem CPI.",
+"B": "Úrokové sazby jsou cenou peněz, CPI měří ceny reálného zboží.",
+"C": "K tomuto účelu slouží burzovní indexy (např. PX nebo S&P 500).",
+"D": ""
 }
 },
 {
 "id": "makro_002",
 "topic": "Makroekonomie",
-"question": "Co vyjadřuje index spotřebitelských cen (CPI)?",
+"question": "Co je spotřebitelský koš?",
 "options": {
-"A": "Celkový nárůst mezd a odměn v národním hospodářství za dané období.",
-"B": "Aktuální tržní hodnotu všech akcií obchodovaných na domácí burze.",
-"C": "Změnu cen vybraného spotřebního koše domácností.",
-"D": "Výši úrokových sazeb stanovených centrální bankou pro tento kvartál."
+"A": "Výběr zboží a služeb zastupující spotřebu domácností.",
+"B": "Seznam všech dostupných akcií, které jsou zahrnuty v hlavním indexu burzy cenných papírů.",
+"C": "Podrobný soupis veškerých mandatorních i nemandatorních výdajů státního rozpočtu pro daný rok.",
+"D": "Statistický údaj vyjadřující procentuální míru nezaměstnanosti v ekonomicky aktivním věku."
 },
-"correct": "C",
-"explainCorrect": "CPI je nejpoužívanějším ukazatelem inflace a měří průměrnou změnu cen reprezentativního výběru zboží a služeb.",
+"correct": "A",
+"explainCorrect": "Spotřebitelský koš je modelový soubor stovek položek, na kterém statistici měří inflaci.",
 "explainWrong": {
-"A": "Vývoj mezd sledují jiné statistiky, například index nominálních mezd.",
-"B": "K tomu slouží akciové indexy (např. PX), CPI se trhem cenných papírů nezabývá.",
-"C": "",
-"D": "Úrokové sazby jsou cenou peněz, CPI měří změny cen reálného zboží a služeb."
+"A": "",
+"B": "Toto je definice báze akciového indexu.",
+"C": "Výdaje státu tvoří fiskální politiku, nikoliv spotřební koš.",
+"D": "Nezaměstnanost je samostatný makroekonomický ukazatel."
 }
 },
 {
 "id": "makro_003",
 "topic": "Makroekonomie",
-"question": "Co je spotřebitelský koš?",
+"question": "Co si dlouhodobě zachovává hodnotu lépe než hotovost při vyšší inflaci?",
 "options": {
-"A": "Seznam všech akciových titulů zahrnutých v hlavním tržním indexu.",
-"B": "Podrobný přehled aktuálních výdajů státního rozpočtu na sociální politiku.",
-"C": "Aktuální míra nezaměstnanosti v produktivním věku obyvatelstva.",
-"D": "Soubor vybraného zboží a služeb reprezentující spotřebu domácností."
+"A": "Bankovky v peněžence nebo v pokladně.",
+"B": "Běžný účet u komerční banky, který nepodléhá žádnému fixnímu úročení.",
+"C": "Investice do reálných aktiv, jako jsou nemovitosti, drahé kovy nebo akciové tituly firem s reálnou produkcí.",
+"D": "Peníze držené na platebních kartách bez možnosti dalšího zhodnocení."
 },
-"correct": "D",
-"explainCorrect": "Jde o statistický vzorek (např. potraviny, bydlení, doprava), na kterém se měří pohyb cenové hladiny pro typickou domácnost.",
+"correct": "C",
+"explainCorrect": "Reálná aktiva mají tendenci růst s inflací, protože jejich vnitřní hodnota není nominálně fixovaná.",
 "explainWrong": {
-"A": "To je definice báze akciového indexu, nikoliv nástroj pro měření inflace.",
-"B": "Státní výdaje jsou součástí fiskální politiky a nesouvisí přímo s košem spotřeby domácností.",
-"C": "Nezaměstnanost měří podíl lidí bez práce, se složením výdajů domácností nesouvisí.",
-"D": ""
+"A": "Hotovost znehodnocuje inflace nejvíce.",
+"B": "Bez úročení peníze na účtu znehodnocuje inflace stejně jako hotovost.",
+"C": "",
+"D": "Neinvestované peníze jsou „mrtvý“ kapitál, který inflace postupně požírá."
 }
 },
 {
 "id": "makro_004",
 "topic": "Makroekonomie",
-"question": "Co si dlouhodobě zachovává hodnotu lépe než hotovost při vyšší inflaci?",
+"question": "Jak je definována diskontní sazba centrální banky?",
 "options": {
-"A": "Bankovky uložené v domácím prostředí bez jakéhokoliv zhodnocení.",
-"B": "Reálná aktiva (např. nemovitosti, zlato, akcie).",
-"C": "Běžný bankovní účet bez jakéhokoliv úročení vkladu či bonusů.",
-"D": "Finanční prostředky držené na účtu u nebankovního poskytovatele."
+"A": "Referenční úroková míra používaná výhradně pro výpočet splátek u dlouhodobých hypotečních úvěrů.",
+"B": "Sazba pro ukládání přebytečné likvidity bank.",
+"C": "Statistický údaj vyjadřující průměrný meziroční růst cen všech průmyslových výrobců v ekonomice.",
+"D": "Sazba, za kterou si komerční banky půjčují prostředky mezi sebou na mezibankovním trhu."
 },
 "correct": "B",
-"explainCorrect": "Reálná aktiva mají tendenci s inflací růst (v nominální ceně), protože jejich hodnota není pevně vázána na jmenovitou hodnotu měny.",
+"explainCorrect": "Diskontní sazba tvoří dno úrokového koridoru a slouží bankám pro uložení volných prostředků u ČNB.",
 "explainWrong": {
-"A": "Hotovost doma znehodnocuje nejrychleji, protože její kupní síla při růstu cen klesá.",
+"A": "Hypotéky mají své tržní sazby, diskontní sazba centrální banky na ně nemá přímý vliv.",
 "B": "",
-"C": "Bez úročení hodnota peněz na účtu reálně klesá stejným tempem jako u hotovosti.",
-"D": "Neinvestované peníze neprodukují žádný výnos, který by mohl inflaci kompenzovat."
+"C": "Toto je definice PPI, nikoliv úrokové sazby.",
+"D": "Půjčky mezi bankami definuje sazba PRIBOR."
 }
 },
 {
 "id": "makro_005",
 "topic": "Makroekonomie",
-"question": "Co je diskontní sazba centrální banky?",
+"question": "Co vyjadřuje lombardní sazba?",
 "options": {
-"A": "Sazba, za kterou si komerční banky mohou uložit přebytečnou likviditu u centrální banky.",
-"B": "Referenční sazba používaná výhradně pro výpočet splátek u hypotečních úvěrů.",
-"C": "Index průměrného růstu cen v celém národním hospodářství za rok.",
-"D": "Sazba, za kterou si banky půjčují prostředky mezi sebou na volném trhu."
+"A": "Horní mez úrokového koridoru, která určuje cenu, za kterou si komerční banky půjčují od centrální banky oproti zástavě cenných papírů.",
+"B": "Úroková sazba pro retailové klienty v rámci jejich běžných spotřebitelských půjček.",
+"C": "Očekávaná míra inflace stanovená nezávislými analytiky pro nadcházející kalendářní rok.",
+"D": "Základní sazba pro operace na volném trhu."
 },
 "correct": "A",
-"explainCorrect": "Diskontní sazba představuje dolní mez pro krátkodobé úrokové sazby na trhu a slouží k ukládání volných peněz komerčních bank.",
+"explainCorrect": "Lombardní sazba je strop, za který si banky půjčují od centrální banky v případě potřeby.",
 "explainWrong": {
 "A": "",
-"B": "Sazby hypoték jsou tržní sazby komerčních bank; diskontní sazba je pro ně pouze dolní hranicí koridoru.",
-"C": "To je popis inflace; diskontní sazba je měnový nástroj, nikoliv statistický ukazatel.",
-"D": "To je definice mezibankovní sazby (např. PRIBOR), nikoliv sazby centrální banky."
+"B": "Komerční banky půjčují lidem za mnohem vyšší, tržně stanovené úroky.",
+"C": "Lombardní sazba je nástroj měnové politiky, nikoliv prognóza růstu cen.",
+"D": "Pro běžné řízení likvidity se používá repo sazba."
 }
 },
 {
 "id": "makro_006",
 "topic": "Makroekonomie",
-"question": "Co je lombardní sazba?",
+"question": "Co je repo sazba z hlediska měnové politiky?",
 "options": {
-"A": "Úroková sazba určená pro běžné retailové klienty v rámci spotřebitelských půjček.",
-"B": "Průměrná míra inflace očekávaná finančními analytiky v příštím roce.",
-"C": "Sazba, za kterou si banky mohou půjčit od centrální banky proti zajištění.",
-"D": "Základní sazba používaná pro běžné operace na volném trhu centrální bankou."
+"A": "Úroková míra, kterou komerční banka připisuje svým klientům na spořicím účtu.",
+"B": "Aktuální výnos státního dluhopisu, který je určen výsledkem aukce na primárním trhu.",
+"C": "Základní sazba pro řízení likvidity.",
+"D": "Statistický údaj vyjadřující celkový roční růst hrubého domácího produktu v reálných cenách."
 },
 "correct": "C",
-"explainCorrect": "Lombardní sazba je horní mezí úrokového koridoru a určuje cenu, za kterou centrální banka půjčuje bankám peníze proti zajištění (např. zástavou cenných papírů).",
+"explainCorrect": "Repo sazba je nejdůležitější úroková sazba v zemi, kterou centrální banka reguluje inflaci.",
 "explainWrong": {
-"A": "Retailoví klienti čerpají úvěry za tržní sazby; lombardní sazba je nástroj pro bankovní sektor.",
-"B": "Lombardní sazba je aktivní nástroj centrální banky, nikoliv prognóza inflace.",
+"A": "Spořicí účty mají sazby určené bankami, centrální banka je přímo nenařizuje.",
+"B": "Výnosy dluhopisů určuje trh, nikoliv rozhodnutí bankovní rady o repo sazbě.",
 "C": "",
-"D": "Pro běžné operace řízení likvidity se používá primárně repo sazba, ne lombardní."
+"D": "Repo sazba je cena peněz, nikoliv ukazatel výkonnosti HDP."
 }
 },
 {
 "id": "makro_007",
 "topic": "Makroekonomie",
-"question": "Co je repo sazba?",
+"question": "Co je PRIBOR?",
 "options": {
-"A": "Výnos dosažený držbou státního pokladničního dluhopisu do doby jeho splatnosti.",
-"B": "Úrok, který komerční banka připisuje klientům na jejich spořicím účtu s výpovědní lhůtou.",
-"C": "Aktuální míra inflace měřená indexem cen průmyslových výrobců.",
-"D": "Základní úroková sazba centrální banky používaná pro řízení likvidity."
+"A": "Celostátní míra inflace v ČR měřená Českým statistickým úřadem na základě šetření.",
+"B": "Základní repo sazba vyhlášená bankovní radou České národní banky na zasedání.",
+"C": "Průměrný roční výnos všech dividendových akcií zahrnutých v bázi indexu pražské burzy.",
+"D": "Referenční úroková sazba na pražském mezibankovním trhu, za kterou si banky jsou ochotny navzájem půjčit prostředky."
 },
 "correct": "D",
-"explainCorrect": "Repo sazba je klíčový nástroj měnové politiky, kterým centrální banka ovlivňuje množství peněz v ekonomice a stabilitu domácí měny.",
+"explainCorrect": "PRIBOR je referenční sazba, za kterou si banky v Praze půjčují peníze mezi sebou.",
 "explainWrong": {
-"A": "Výnos dluhopisu určuje trh; repo sazba je měnověpolitická sazba centrální banky.",
-"B": "Úrok na spoření určuje komerční banka; repo sazba je pro ni orientačním bodem.",
-"C": "Repo sazba je nástrojem k tlumení inflace, nikoliv ukazatel inflace (PPI).",
+"A": "Inflaci měří CPI, PRIBOR je úrokový údaj z bankovního trhu.",
+"B": "Repo sazbu určuje centrální banka, PRIBOR tvoří komerční banky svými kotacemi.",
+"C": "Akcie generují dividendy, PRIBOR je úroková sazba pro peněžní trh.",
 "D": ""
 }
 },
 {
 "id": "makro_008",
 "topic": "Makroekonomie",
-"question": "Co je PRIBOR?",
+"question": "Jak se projevuje inverzní výnosová křivka?",
 "options": {
-"A": "Souhrnný index měřící meziroční inflaci v rámci celého státního území ČR.",
-"B": "Referenční mezibankovní úroková sazba, za kterou si banky půjčují mezi sebou.",
-"C": "Základní repo sazba vyhlášená bankovní radou centrální banky na zasedání.",
-"D": "Průměrný výnos všech akciových titulů zahrnutých v hlavním indexu pražské burzy."
+"A": "Situace, kdy jsou dlouhodobé úrokové sazby výrazně vyšší než krátkodobé sazby.",
+"B": "Krátkodobé sazby jsou vyšší.",
+"C": "Ukazatel potvrzující, že míra inflace v národní ekonomice klesla na nulovou hodnotu.",
+"D": "Potvrzení, že hrubý domácí produkt roste rychlejším tempem než v předchozím období."
 },
 "correct": "B",
-"explainCorrect": "PRIBOR je referenční sazba mezibankovního trhu, odvozená z kotací bank, za jakých jsou ochotny si navzájem půjčovat peníze.",
+"explainCorrect": "Inverzní křivka je anomálie, která obvykle předpovídá příchod hospodářské recese.",
 "explainWrong": {
-"A": "Inflaci měří index CPI; PRIBOR se týká ceny peněz mezi bankami.",
+"A": "Toto je popis normální, zdravé výnosové křivky.",
 "B": "",
-"C": "Repo sazbu určuje ČNB; PRIBOR vzniká na základě tržních kotací komerčních bank.",
-"D": "Akcie nenesou úrok PRIBOR; jejich výnos tvoří dividendy a změna ceny."
+"C": "Tvar výnosové křivky přímo neurčuje konkrétní úroveň inflace.",
+"D": "Inverzní křivka signalizuje spíše budoucí pokles HDP."
 }
 },
 {
 "id": "makro_009",
 "topic": "Makroekonomie",
-"question": "Co znamená inverzní výnosová křivka?",
+"question": "Co měří hrubý domácí produkt (HDP)?",
 "options": {
-"A": "Krátkodobé sazby jsou vyšší než dlouhodobé.",
-"B": "Dlouhodobé sazby jsou vyšší než krátkodobé sazby v daném období.",
-"C": "Míra inflace v ekonomice klesla na zcela nulovou nebo zápornou úroveň.",
-"D": "Hrubý domácí produkt roste nadprůměrným tempem v porovnání s minulým rokem."
+"A": "Tržní hodnotu všech finálních statků a služeb, které byly vyprodukovány v dané ekonomice za určité časové období.",
+"B": "Průměrnou měsíční mzdu všech obyvatel v produktivním věku pracujících v zemi.",
+"C": "Procentuální míru inflace vypočtenou na základě změn cen statků vyrobených v zemi.",
+"D": "Aktuální výši všech úrokových sazeb určených pro financování průmyslových investic."
 },
 "correct": "A",
-"explainCorrect": "Jde o anomálii, kdy trh často očekává budoucí pokles sazeb (např. kvůli recesi), proto jsou krátkodobé výnosy vyšší než dlouhodobé.",
+"explainCorrect": "HDP měří celkovou produkci státu v peněžním vyjádření.",
 "explainWrong": {
 "A": "",
-"B": "Toto popisuje normální (rostoucí) výnosovou křivku.",
-"C": "Tvar křivky neurčuje přímo úroveň inflace, odráží spíše očekávání trhu ohledně budoucích sazeb.",
-"D": "Inverzní křivka je historicky spíše předzvěstí recese než nadprůměrného růstu HDP."
+"B": "Mzdy jsou jen jednou složkou příjmů, nevypovídají o celkové produkci státu.",
+"C": "Toto popisuje deflátor HDP, nikoliv HDP samotný.",
+"D": "Úrokové sazby jsou nástrojem měnové politiky, HDP měří reálnou aktivitu."
 }
 },
 {
 "id": "makro_010",
 "topic": "Makroekonomie",
-"question": "Co měří hrubý domácí produkt (HDP)?",
+"question": "Co vyjadřuje průměrná mzda?",
 "options": {
-"A": "Průměrnou měsíční mzdu všech ekonomicky aktivních obyvatel v rámci dané země.",
-"B": "Procentuální změnu cen v rámci národního hospodářství měřenou deflátorem.",
-"C": "Celkovou hodnotu finálních statků a služeb vyprodukovaných v ekonomice.",
-"D": "Úroveň úrokových sazeb určených pro firemní úvěry s dlouhou dobou splatnosti."
+"A": "Nejčastěji se vyskytující výši výdělku v celé ekonomice pobíranou největší skupinou.",
+"B": "Zákonem stanovenou minimální částku, kterou musí zaměstnavatel vyplatit.",
+"C": "Aritmetický průměr všech mezd.",
+"D": "Prostřední hodnotu mezd dělící soubor zaměstnanců na dvě přesně stejné poloviny."
 },
 "correct": "C",
-"explainCorrect": "HDP je základním měřítkem ekonomické aktivity a celkové výkonnosti státu za určité období.",
+"explainCorrect": "Průměrná mzda je podílem celkového objemu vyplacených mezd a počtu zaměstnanců.",
 "explainWrong": {
-"A": "Průměrná mzda je dílčí statistika příjmů; nevypovídá o celkové produkci ekonomiky.",
-"B": "Deflátor je cenový index; HDP měří hodnotu/objem vytvořené produkce, nikoliv přímo inflaci.",
+"A": "Tato hodnota se nazývá modus.",
+"B": "Toto je definice minimální mzdy.",
 "C": "",
-"D": "Úrokové sazby jsou cenou peněz; HDP je výsledek reálné ekonomické činnosti."
+"D": "Tato hodnota se nazývá medián."
 }
 },
 {
 "id": "makro_011",
 "topic": "Makroekonomie",
-"question": "Co vyjadřuje průměrná mzda?",
+"question": "Jaký je vztah mezi inflací a úsporami drženými v hotovosti?",
 "options": {
-"A": "Nejčastěji se vyskytující mzdu v rámci celé ekonomiky za sledovaný rok.",
-"B": "Minimální zákonem stanovenou odměnu za vykonanou práci v plném úvazku.",
-"C": "Středovou hodnotu mezd, která dělí zaměstnance na dvě stejně početné skupiny.",
-"D": "Aritmetický průměr všech mezd vyplacených v národním hospodářství."
+"A": "Inflace postupně zvyšuje reálnou hodnotu těchto úspor díky růstu nominálních cen.",
+"B": "Proces inflace nemá na hodnotu hotovosti žádný měřitelný vliv v žádném horizontu.",
+"C": "Inflace zvyšuje úrokový výnos hotovosti držené mimo bankovní systém v trezorech.",
+"D": "Inflace jejich reálnou hodnotu snižuje, protože kupní síla nominálně fixovaných peněz při růstu cen klesá."
 },
 "correct": "D",
-"explainCorrect": "Průměrná mzda je aritmetický průměr: celkový objem vyplacených mezd dělený počtem zaměstnanců.",
+"explainCorrect": "Hotovost nenese úrok, takže při růstu cen klesá její kupní síla (reálná hodnota).",
 "explainWrong": {
-"A": "Nejčastější hodnota je modus; průměrná mzda jím obvykle není.",
-"B": "Minimální mzda je legislativní minimum, nikoliv průměr všech mezd.",
-"C": "To je medián mezd; často se liší od průměru (bývá nižší).",
+"A": "Inflace hodnotu peněz vždy znehodnocuje.",
+"B": "Vliv inflace na hotovost je naprosto zásadní.",
+"C": "Hotovost nese nulový úrok, inflace tento fakt nijak nemění.",
 "D": ""
 }
 },
 {
 "id": "makro_012",
 "topic": "Makroekonomie",
-"question": "Jaký je vztah mezi inflací a úsporami drženými v hotovosti?",
+"question": "Jaký je typický vztah mezi devalvací měny a inflací?",
 "options": {
-"A": "Inflace postupně zvyšuje reálnou kupní sílu těchto neinvestovaných úspor.",
-"B": "Inflace jejich reálnou hodnotu snižuje.",
-"C": "Inflace nemá na tyto úspory žádný měřitelný vliv v krátkém ani dlouhém období.",
-"D": "Inflace automaticky zvyšuje úrokovou míru u veškeré hotovosti držené v bankách."
+"A": "Devalvace měny vede k plošnému snižování cenové hladiny u veškerého zboží.",
+"B": "Devalvace může vést k růstu inflace.",
+"C": "Mezi kurzem měny a cenovou hladinou neexistuje žádná přímá souvislost.",
+"D": "Devalvace výrazně snižuje ceny dovážených surovin pro domácí subjekty."
 },
 "correct": "B",
-"explainCorrect": "Hotovost sama o sobě nenese úrok, takže růst cen snižuje množství zboží a služeb, které lze za stejné peníze koupit.",
+"explainCorrect": "Slabší měna (devalvace) zdražuje dovozy, což vyvolává tlak na růst domácích cen (inflaci).",
 "explainWrong": {
-"A": "Reálnou kupní sílu by zvyšoval pokles cen (deflace), nikoliv inflace.",
+"A": "Devalvace působí proinflačně, ceny v ekonomice tlačí směrem nahoru.",
 "B": "",
-"C": "Inflace má na neinvestované úspory výrazný dopad (inflační daň).",
-"D": "Hotovost ani běžný účet bez úročení automaticky negenerují vyšší úrok kvůli inflaci."
+"C": "V otevřené ekonomice je vztah mezi kurzem a inflací velmi silný.",
+"D": "Je to naopak – devalvace dovozy v domácí měně zdražuje."
 }
 },
 {
 "id": "makro_013",
 "topic": "Makroekonomie",
-"question": "Jaký je typický vztah mezi devalvací měny a inflací?",
+"question": "Jak ovlivní revalvace domácí měny úspory držené v cizí měně?",
 "options": {
-"A": "Devalvace měny vede k plošnému snižování cenové hladiny v ekonomice.",
-"B": "Devalvace může vést k růstu inflace.",
-"C": "Kurz měny a vnitřní cenová hladina spolu nemají žádnou přímou souvislost.",
-"D": "Devalvace snižuje ceny dováženého zboží a surovin pro domácí spotřebitele."
+"A": "Dochází ke snížení jejich hodnoty vyjádřené v domácí měně, protože za stejný objem cizí měny lze získat méně jednotek měny domácí.",
+"B": "Výrazně zvýší jejich celkovou přepočtenou hodnotu v domácí měně při nákupu.",
+"C": "Nemá na hodnotu zahraničních úspor žádný vliv, protože kurz se týká nových transakcí.",
+"D": "Revalvace automaticky zdvojnásobí kupní sílu zahraničních úspor v okamžiku převodu."
 },
-"correct": "B",
-"explainCorrect": "Oslabení měny zdražuje dovoz (zboží i suroviny), což se může promítnout do růstu domácích cen (importovaná inflace).",
+"correct": "A",
+"explainCorrect": "Posílení domácí měny (revalvace) znamená, že za stejné množství cizí měny dostanete méně domácích peněz.",
 "explainWrong": {
-"A": "Devalvace obvykle působí opačně a tlačí ceny spíše nahoru.",
-"B": "",
-"C": "V otevřené ekonomice je vazba mezi kurzem a cenami významná, zejména přes dovoz.",
-"D": "Devalvace dovoz zdražuje, protože za cizí měnu je potřeba více domácí měny."
+"A": "",
+"B": "Hodnotu v přepočtu by zvýšilo oslabení (devalvace).",
+"C": "Kurzový pohyb mění hodnotu majetku v domácí měně okamžitě.",
+"D": "Revalvace se pohybují v jednotkách procent, zdvojnásobení je nereálné."
 }
 },
 {
 "id": "makro_014",
 "topic": "Makroekonomie",
-"question": "Jak ovlivní revalvace domácí měny úspory držené v cizí měně?",
+"question": "Jak reagují centrální banky typicky na rostoucí inflaci?",
 "options": {
-"A": "Výrazně zvýší jejich celkovou přepočtenou hodnotu v domácí měně.",
-"B": "Zdvojnásobí jejich kupní sílu v rámci domácího trhu při nákupu nemovitostí.",
-"C": "Sníží jejich hodnotu v domácí měně.",
-"D": "Nemá žádný vliv na jejich přepočet do domácí měny při výměně v bance."
+"A": "Přistupují k plošnému snižování úrokových sazeb, aby podpořily spotřebu.",
+"B": "Ponechávají úrokové sazby na nezměněné úrovni po neomezeně dlouhou dobu.",
+"C": "Zvyšují úrokové sazby.",
+"D": "Rozhodnou se pro úplné zrušení základní repo sazby a přechod na fixní režim."
 },
 "correct": "C",
-"explainCorrect": "Pokud domácí měna posílí, za stejné množství cizí měny dostanete po přepočtu méně domácí měny, takže hodnota úspor v domácím vyjádření klesá.",
+"explainCorrect": "Vyšší sazby zdražují úvěry, omezují poptávku a tím brzdí růst cenové hladiny.",
 "explainWrong": {
-"A": "Hodnota zahraničních úspor v domácí měně roste při oslabení domácí měny (devalvaci), ne při revalvaci.",
-"B": "Revalvace se obvykle pohybuje v řádu procent, nikoliv jako zdvojnásobení kupní síly.",
+"A": "Snížení sazeb by inflaci ještě více zrychlilo.",
+"B": "Centrální banka musí na prudký růst cen aktivně reagovat.",
 "C": "",
-"D": "Kurzový pohyb má přímý vliv na přepočtenou hodnotu zahraničních úspor."
+"D": "Repo sazba je hlavním nástrojem, její zrušení by znamenalo ztrátu kontroly."
 }
 },
 {
 "id": "makro_015",
 "topic": "Makroekonomie",
-"question": "Jak reagují centrální banky typicky na rostoucí inflaci?",
+"question": "Jak vyšší úrokové sazby obvykle ovlivňují motivaci k tvorbě úspor?",
 "options": {
-"A": "Přistupují k plošnému snižování úrokových sazeb pro podporu trhu.",
-"B": "Ponechávají úrokové sazby na nezměněné úrovni po celou dobu krize.",
-"C": "Rozhodnou se pro úplné zrušení klíčové repo sazby na neurčito.",
-"D": "Zvyšují úrokové sazby."
+"A": "Vyšší sazby motivaci k úsporám výrazně snižují ve prospěch okamžité spotřeby.",
+"B": "Činí odloženou spotřebu atraktivnější, čímž motivují ekonomické subjekty ke zvyšování podílu úspor na jejich celkových příjmech.",
+"C": "Mezi výší úrokových sazeb a ochotou domácností tvořit úspory není žádný vztah.",
+"D": "Vyšší úrokové sazby způsobují okamžitý nárast míry inflace v hospodářství."
 },
-"correct": "D",
-"explainCorrect": "Zvýšením sazeb se zdraží úvěry, omezí se poptávka a obvykle se tím tlumí inflace.",
+"correct": "B",
+"explainCorrect": "Vyšší úrok nabízí lepší odměnu za odloženou spotřebu, což lidi motivuje více spořit.",
 "explainWrong": {
-"A": "Snížení sazeb by inflaci obvykle dále podpořilo.",
-"B": "Při výrazně rostoucí inflaci bývá typická aktivní reakce, často zvýšení sazeb.",
-"C": "Zrušení repo sazby by znamenalo ztrátu klíčového nástroje měnové politiky.",
-"D": ""
+"A": "Motivaci k úsporám snižují naopak nízké sazby.",
+"B": "",
+"C": "Úroková míra je klíčovou proměnnou při rozhodování o úsporách.",
+"D": "Vyšší sazby jsou určeny k boji proti inflaci, nikoliv k jejímu vyvolání."
 }
 },
 {
 "id": "makro_016",
 "topic": "Makroekonomie",
-"question": "Jak vyšší úrokové sazby ovlivňují motivaci k tvorbě úspor?",
+"question": "Jak vyšší úrokové sazby obvykle ovlivňují HDP?",
 "options": {
-"A": "Výrazně tuto motivaci snižují ve prospěch okamžité spotřeby v obchodech.",
-"B": "Zvyšují ji.",
-"C": "Nemají na rozhodování o úsporách žádný vliv u žádné skupiny obyvatel.",
-"D": "Způsobují okamžitý nárůst míry inflace v rámci celého státního území."
+"A": "Prudce podporují a zrychlují celkový růst hrubého domácího produktu.",
+"B": "Nemají na dynamiku růstu HDP žádný dopad, protože ovlivňují pouze banky.",
+"C": "Okamžitě zvyšují exportní výkonnost země díky posílení domácí měny.",
+"D": "Zpovalují ekonomický růst."
 },
-"correct": "B",
-"explainCorrect": "Vyšší úroky na vkladech dělají spoření atraktivnějším v porovnání s okamžitou spotřebou.",
+"correct": "D",
+"explainCorrect": "Dražší úvěry brzdí investice firem a nákupy na dluh, což vede ke zpomalení tempa růstu HDP.",
 "explainWrong": {
-"A": "Motivaci spořit snižují spíše nízké nebo záporné reálné úrokové sazby.",
-"B": "",
-"C": "Úroková míra je významný faktor rozhodování mezi spotřebou a úsporami.",
-"D": "Vyšší sazby jsou obvykle používány k tlumení inflace, ne k jejímu růstu."
+"A": "Růst HDP podporují nízké sazby.",
+"B": "Úrokové sazby mají na agregátní poptávku zásadní vliv.",
+"C": "Vyšší sazby měnu posilují, což exportérům situaci ztěžuje.",
+"D": ""
 }
 },
 {
 "id": "makro_017",
 "topic": "Makroekonomie",
-"question": "Jak vyšší úrokové sazby obvykle ovlivňují HDP?",
+"question": "Jak růst úrokových sazeb obvykle ovlivňuje ceny dluhopisů?",
 "options": {
-"A": "Zpomalují ekonomický růst.",
-"B": "Prudce podporují a zrychlují celkový růst HDP v daném roce.",
-"C": "Nemají na dynamiku HDP žádný měřitelný dopad podle ekonomických modelů.",
-"D": "Okamžitě a plošně zvyšují celkový export země do zahraničí."
+"A": "Způsobuje pokles tržní ceny dluhopisů s fixním výnosem, protože investoři vyžadují vyšší výnos do splatnosti odpovídající aktuální tržní úrovni.",
+"B": "Způsobuje růst tržních cen všech dluhopisů díky vyšší atraktivitě kupónů.",
+"C": "Nemá na tržní ceny dluhopisů žádný vliv, protože kupony jsou u nich pevně dané.",
+"D": "Vyvolává okamžité zvýšení nominální hodnoty dluhopisu vyplacené emitentem."
 },
 "correct": "A",
-"explainCorrect": "Dražší úvěry brzdí investice firem a spotřebu domácností na dluh, což obvykle vede ke zpomalení ekonomického růstu.",
+"explainCorrect": "Mezi úroky a cenou dluhopisu je inverzní vztah. Rostoucí sazby srážejí cenu starších dluhopisů dolů.",
 "explainWrong": {
 "A": "",
-"B": "Růst HDP obvykle podporují nízké sazby, které zlevňují financování.",
-"C": "Úrokové sazby mají významný vliv na agregátní poptávku a tím i na HDP.",
-"D": "Vyšší sazby mohou posílit měnu, což často exportérům ztěžuje konkurenceschopnost."
+"B": "Ceny dluhopisů rostou, když sazby klesají.",
+"C": "Právě fixní kupon je důvodem, proč cena musí klesnout, aby se vyrovnal výnos.",
+"D": "Nominální hodnota dluhopisu je neměnná."
 }
 },
 {
 "id": "makro_018",
 "topic": "Makroekonomie",
-"question": "Jak růst úrokových sazeb obvykle ovlivňuje ceny dluhopisů?",
+"question": "Jak růst úrokových sazeb obvykle ovlivňuje akciový trh?",
 "options": {
-"A": "Způsobuje prudké zvýšení nominální hodnoty všech vydaných dluhopisů.",
-"B": "Posiluje zájem investorů o starší emise dluhopisů s nízkým úrokem.",
-"C": "Ceny dluhopisů klesají.",
-"D": "Vedou k okamžitému zvýšení kupónových plateb u již existujících papírů."
+"A": "Má tendenci zvyšovat valuace všech akciových titulů díky lepším vyhlídkám.",
+"B": "Má tendenci tlačit ceny akcií dolů.",
+"C": "Automaticky zvyšuje čisté zisky firem, protože zlevňuje obsluhu dluhů.",
+"D": "Nemá na ceny akcií žádný vliv, protože trh se řídí výhradně psychologií."
 },
-"correct": "C",
-"explainCorrect": "Když vzrostou tržní úroky, starší dluhopisy s nižším kuponem jsou méně atraktivní a jejich tržní cena klesne, aby se vyrovnal výnos.",
+"correct": "B",
+"explainCorrect": "Vyšší sazby zvyšují firmám náklady a investorům diskontní míru, což vede k poklesu cen akcií.",
 "explainWrong": {
-"A": "Nominální hodnota je fixní; mění se tržní cena, a při růstu sazeb typicky klesá.",
-"B": "Zájem o starší nízkokuponové emise obvykle klesá, protože nové emise nesou vyšší výnos.",
-"C": "",
-"D": "U fixních dluhopisů je kupon neměnný a změna sazeb ho zpětně neupravuje."
+"A": "Valuace při růstu sazeb obvykle klesají.",
+"B": "",
+"C": "Vyšší úroky naopak náklady firem zvyšují.",
+"D": "Sazby jsou jedním z nejdůležitějších fundamentálních faktorů ocenění."
 }
 },
 {
 "id": "makro_019",
 "topic": "Makroekonomie",
-"question": "Jak růst úrokových sazeb obvykle ovlivňuje akciový trh?",
+"question": "Jak vysoká inflace obvykle ovlivňuje ceny dluhopisů s fixním výnosem?",
 "options": {
-"A": "Výrazně zvyšuje tržní ocenění (valuaci) všech akcií na burze.",
-"B": "Způsobuje automatický a okamžitý nárůst čistých zisků všech firem.",
-"C": "Nemá na ceny akcií na burze žádný podstatný vliv v dlouhém období.",
-"D": "Má tendenci tlačit ceny akcií dolů."
+"A": "Zvyšuje jejich tržní cenu v důsledku extrémní poptávky po pevném zhodnocení.",
+"B": "Nemá na cenu dluhopisů vliv, inflace ovlivňuje pouze ceny zboží.",
+"C": "Působí na pokles jejich tržní ceny, neboť znehodnocuje reálnou kupní sílu budoucích fixně stanovených kupónových plateb i jistiny.",
+"D": "Způsobuje automatické navýšení pevného kupónu o aktuální míru inflace."
 },
-"correct": "D",
-"explainCorrect": "Vyšší sazby zvyšují diskontní míru a náklady financování, což obvykle snižuje současnou hodnotu budoucích zisků a tlačí ceny akcií dolů.",
+"correct": "C",
+"explainCorrect": "Inflace znehodnocuje reálný výnos fixních plateb, což tlačí ceny dluhopisů směrem dolů.",
 "explainWrong": {
-"A": "Při růstu sazeb valuace obvykle klesají, protože kapitál je dražší.",
-"B": "Vyšší úrokové náklady firmám často zisky snižují, ne zvyšují.",
-"C": "Trhy na změny sazeb obvykle reagují citlivě a často i rychle.",
-"D": ""
+"A": "Inflace je největším nepřítelem držitelů fixních dluhopisů.",
+"B": "Inflace mění reálné výnosy všech finančních aktiv.",
+"C": "",
+"D": "U fixních dluhopisů je kupon neměnný."
 }
 },
 {
 "id": "makro_020",
 "topic": "Makroekonomie",
-"question": "Jak vysoká inflace obvykle ovlivňuje ceny dluhopisů s fixním výnosem?",
-"options": {
-"A": "Zvyšuje tržní cenu těchto dluhopisů kvůli vysoké poptávce investorů.",
-"B": "Snižuje jejich reálnou hodnotu a cenu.",
-"C": "Nemá žádný vliv na reálný výnos investora v žádném ekonomickém cyklu.",
-"D": "Automaticky zvyšuje vyplácený kupón dluhopisu o aktuální míru inflace."
-},
-"correct": "B",
-"explainCorrect": "Inflace snižuje reálnou hodnotu budoucích fixních plateb; investoři proto požadují vyšší výnos, což tlačí cenu dluhopisů dolů.",
-"explainWrong": {
-"A": "Vysoká inflace je pro fixně úročené dluhopisy typicky negativní, poptávku spíše snižuje.",
-"B": "",
-"C": "Inflace výrazně mění reálný výnos (nominální minus inflace), takže vliv má.",
-"D": "U fixních dluhopisů je kupon daný a inflace ho automaticky nezvyšuje."
-}
-},
-{
-"id": "makro_021",
-"topic": "Makroekonomie",
 "question": "Jak může mírná inflace působit na akcie?",
 "options": {
-"A": "Na vývoj cen akcií působí vždy výhradně negativně a destruktivně.",
-"B": "Způsobuje okamžitý a nevyhnutelný kolaps celého finančního trhu.",
-"C": "Může být neutrální nebo mírně pozitivní (růst tržeb firem).",
-"D": "Nemá na akciový trh naprosto žádný měřitelný vliv podle historických dat."
+"A": "Na vývoj cen akcií působí vždy výhradně negativně a vede k výprodejům.",
+"B": "Vždy a za všech okolností způsobí totální kolaps finančního systému.",
+"C": "Nemá na ceny akcií naprosto žádný vliv podle všech dostupných dat.",
+"D": "Může být neutrální nebo mírně pozitivní skrze nominální růst tržeb firem."
 },
-"correct": "C",
-"explainCorrect": "Mnoho firem dokáže inflaci promítnout do cen, takže jim nominálně rostou tržby i zisky, což může být pro akcie neutrální až mírně pozitivní.",
+"correct": "D",
+"explainCorrect": "Mírná inflace umožňuje firmám zvyšovat ceny a nominální tržby, což může akciím prospívat.",
 "explainWrong": {
-"A": "Mírná inflace je často známkou zdravé ekonomiky a nemusí být pro akcie negativní.",
-"B": "Kolapsy trhu obvykle souvisí s extrémy (např. hyperinflací), ne s mírnou inflací.",
-"C": "",
-"D": "Inflace ovlivňuje ocenění aktiv i chování investorů, takže vliv má."
+"A": "Mírná inflace není pro akcie hrozbou.",
+"B": "Kolapsy způsobují extrémní šoky, nikoliv mírná inflace.",
+"C": "Inflace mění ocenění všech aktiv v ekonomice.",
+"D": ""
 }
 }
 ]
