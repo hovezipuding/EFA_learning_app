@@ -1,0 +1,477 @@
+[
+{
+"id": "zivotni_000",
+"topic": "Životní pojištění",
+"question": "Který právní předpis upravuje náležitosti pojistné smlouvy a promlčecí lhůty v pojištění?",
+"options": {
+"A": "Občanský zákoník (č. 89/2012 Sb.).",
+"B": "Zákon o pojišťovnictví (č. 277/2009 Sb.).",
+"C": "Nařízení Evropského parlamentu a Rady (EU) č. 1286/2014.",
+"D": "Prováděcí vyhláška České národní banky o distribuci pojištění."
+},
+"correct": "A",
+"explainCorrect": "Občanský zákoník upravuje náležitosti smlouvy, práva a povinnosti účastníků i promlčecí lhůty.",
+"explainWrong": {
+"A": "",
+"B": "Tento zákon se zaměřuje na provozování pojišťovací činnosti a kapitál pojišťoven.",
+"C": "Toto nařízení (PRIIPs) řeší sdělení klíčových informací u investičních produktů.",
+"D": "ČNB dohled pouze provádí, základní právní rámec smluv dává zákon."
+}
+},
+{
+"id": "zivotni_001",
+"topic": "Životní pojištění",
+"question": "Jakou maximální pokutu může ČNB uložit pojišťovně podle zákona o pojišťovnictví?",
+"options": {
+"A": "Do 10 milionů Kč.",
+"B": "Až do výše 50 milionů Kč.",
+"C": "Maximálně 1 % z obratu pojišťovny.",
+"D": "Do 100 milionů Kč."
+},
+"correct": "B",
+"explainCorrect": "Pojišťovně lze uložit pokutu dle zákona o pojišťovnictví až do výše 50 mil. Kč.",
+"explainWrong": {
+"A": "Tato částka (10 mil. Kč) je horní hranicí pokuty za distribuci bez splnění podmínek důvěryhodnosti.",
+"B": "",
+"C": "Prezentace uvádí fixní maximální částku, nikoliv procentuální podíl.",
+"D": "Tato částka neodpovídá informacím v legislativním rámci prezentace."
+}
+},
+{
+"id": "zivotni_002",
+"topic": "Životní pojištění",
+"question": "K čemu slouží dokument „Sdělení klíčových informací“ (PRIIPs)?",
+"options": {
+"A": "K detailnímu popisu všech pojistných rizik u rizikového životního pojištění.",
+"B": "Asi náhrada pojistné smlouvy u rezervotvorného pojištění.",
+"C": "K zjednodušení složité dokumentace pro klienty u rezervotvorných pojistek.",
+"D": "Pro výpočet pojistného u doplňkového pojištění nemoci."
+},
+"correct": "C",
+"explainCorrect": "Jde o zjednodušení dokumentace pro klienty, podobně jako KIID u investic.",
+"explainWrong": {
+"A": "Předává se primárně u rezervotvorných (investičních) pojistek.",
+"B": "Sdělení je informační dokument, nenahrazuje samotnou pojistnou smlouvu.",
+"C": "",
+"D": "Dokument slouží k informování zájemce, nikoliv k aktuárskému výpočtu ceny."
+}
+},
+{
+"id": "zivotni_003",
+"topic": "Životní pojištění",
+"question": "Co je nezbytnou podmínkou pro to, aby mohl zprostředkovatel poskytnout klientovi v pojištění „Radu“?",
+"options": {
+"A": "Souhlas České národní banky s konkrétním produktem.",
+"B": "Uzavření písemné dohody o výhradním zastupování pojistníka.",
+"C": "Absolvování minimálně pěti let praxe v oboru životního pojištění.",
+"D": "Provedení analýzy znalostí, zkušeností, finanční situace a rizikové tolerance zákazníka."
+},
+"correct": "D",
+"explainCorrect": "Pro poskytnutí rady je potřeba udělat analýzu, např. formou investičního dotazníku.",
+"explainWrong": {
+"A": "ČNB dohlíží na trh, ale neschvaluje jednotlivé rady zprostředkovatelů.",
+"B": "Povinnost provést analýzu pro radu vyplývá ze zákona, nikoliv z exkluzivity zastupování.",
+"C": "Kvalifikaci určuje zákon, ale „rada“ je vázána na provedenou analýzu klienta.",
+"D": ""
+}
+},
+{
+"id": "zivotni_004",
+"topic": "Životní pojištění",
+"question": "Jak se nazývá dokument, který zprostředkovatel sepíše s klientem po jednání o pojištění?",
+"options": {
+"A": "Záznam z jednání.",
+"B": "Sdělení klíčových informací.",
+"C": "Pojistná smlouva.",
+"D": "Analýza rizikové tolerance."
+},
+"correct": "A",
+"explainCorrect": "Zprostředkovatel seznámí klienta s pojistnou smlouvou a sepíše „Záznam z jednání“.",
+"explainWrong": {
+"A": "",
+"B": "Tento dokument klientovi předává, ale není to výsledek konkrétního zápisu z jednání.",
+"C": "Smlouva je právní úkon vzniku pojištění, záznam je procesní dokumentace jednání.",
+"D": "To je součást analýzy pro radu, nikoliv název souhrnného dokumentu o jednání."
+}
+},
+{
+"id": "zivotni_005",
+"topic": "Životní pojištění",
+"question": "Která z následujících možností patří do základního členění životního pojištění?",
+"options": {
+"A": "Havarijní pojištění vozidla.",
+"B": "Investiční životní pojištění.",
+"C": "Pojištění odpovědnosti za škodu.",
+"D": "Pojištění domácnosti a nemovitosti."
+},
+"correct": "B",
+"explainCorrect": "Životní pojištění se člení na rizikové, kapitálové a investiční.",
+"explainWrong": {
+"A": "Toto je typické neživotní pojištění majetku.",
+"B": "",
+"C": "Pojištění odpovědnosti patří do kategorie neživotního pojištění.",
+"D": "Jedná se o majetkové pojištění spadající pod neživotní složku."
+}
+},
+{
+"id": "zivotni_006",
+"topic": "Životní pojištění",
+"question": "Jaká je hlavní odlišnost mezi životním a neživotním pojištěním v otázce výpovědi ze strany pojišťovny?",
+"options": {
+"A": "Životní i neživotní pojištění lze vypovědět kdykoliv bez omezení.",
+"B": "Pouze životní pojištění lze vypovědět ihned po vzniku pojistné události.",
+"C": "Životní pojištění nemůže pojišťovna sama vypovědět, zatímco neživotní pojištění ano.",
+"D": "Neživotní pojištění nelze vypovědět, pokud majetek stále existuje."
+},
+"correct": "C",
+"explainCorrect": "ŽP se uzavírá na dlouhou dobu a pojišťovna ho nesmí vypovědět, aby ochrana zůstala zachována i při zhoršení zdraví.",
+"explainWrong": {
+"A": "U životního pojištění má pojišťovna zákaz výpovědi pro zachování ochrany klienta.",
+"B": "Neživotní pojištění lze vypovědět např. po pojistné události, u životního to nejde.",
+"C": "",
+"D": "Neživotní pojištění (auto, dům) může pojišťovna sama vypovědět."
+}
+},
+{
+"id": "zivotni_007",
+"topic": "Životní pojištění",
+"question": "Jaká je promlčecí lhůta u neživotního pojištění?",
+"options": {
+"A": "10 + 1 rok.",
+"B": "5 + 1 rok.",
+"C": "1 rok.",
+"D": "3 + 1 rok."
+},
+"correct": "D",
+"explainCorrect": "Neživotní pojištění má promlčecí lhůtu 3 + 1 rok.",
+"explainWrong": {
+"A": "Toto je promlčecí lhůta stanovená pro životní pojištění.",
+"B": "Taková lhůta neodpovídá promlčecím pravidlům uvedeným v prezentaci.",
+"C": "Tato doba neodpovídá standardním promlčecím lhůtám pojištění.",
+"D": ""
+}
+},
+{
+"id": "zivotni_008",
+"topic": "Životní pojištění",
+"question": "U kterého typu pojištění platí, že lze být pojištěn u více pojišťoven a od všech obdržet plnění, protože nelze škodu přesně vyčíslit v penězích?",
+"options": {
+"A": "Obnosové pojištění.",
+"B": "Škodové pojištění.",
+"C": "Pojištění majetku a domácnosti.",
+"D": "Havarijní pojištění."
+},
+"correct": "A",
+"explainCorrect": "U obnosového pojištění (např. smrt, invalidita) lze mít více pojistek a od všech dostat plnění.",
+"explainWrong": {
+"A": "",
+"B": "Zde lze mít více pojistek, ale plnění nesmí přesáhnout výši skutečné škody.",
+"C": "Jedná se o škodové pojištění, kde se nahrazuje reálná škoda na majetku.",
+"D": "Spadá pod škodové pojištění, kde není možné dostat více, než je škoda."
+}
+},
+{
+"id": "zivotni_009",
+"topic": "Životní pojištění",
+"question": "Který z následujících pojmů nelze uplatnit u obnosového pojištění?",
+"options": {
+"A": "Pojistné plnění.",
+"B": "Podpojištění.",
+"C": "Pojistné riziko.",
+"D": "Pojistný zájem."
+},
+"correct": "B",
+"explainCorrect": "Obnosové pojištění nelze přepojistit ani podpojistit.",
+"explainWrong": {
+"A": "To je obecný název pro vyplacené peníze z pojistky.",
+"B": "",
+"C": "Riziko (smrt, nemoc) je základem každého pojištění.",
+"D": "Pojistný zájem je nutnou podmínkou vzniku i u životního pojištění."
+}
+},
+{
+"id": "zivotni_010",
+"topic": "Životní pojištění",
+"question": "Co musí být splněno, pokud chce někdo pojistit život a zdraví jiné osoby?",
+"options": {
+"A": "Pojištěná osoba musí dosáhnout věku alespoň 18 let a být plně svéprávná.",
+"B": "Pojistitel musí prokázat svůj majetkový vztah k pojišťovanému majetku dotyčného.",
+"C": "Pojištěný musí dát k takovému pojištění svůj souhlas.",
+"D": "Pojištění musí být uzavřeno výhradně jako pojištění škodové pro případ úrazu."
+},
+"correct": "C",
+"explainCorrect": "Nemohu někoho pojistit bez jeho souhlasu a mít prospěch z jeho úmrtí.",
+"explainWrong": {
+"A": "Věková hranice není v prezentaci v souvislosti se souhlasem definována.",
+"B": "U životního pojištění jde o život a zdraví, nikoliv o majetkový vztah k věcem.",
+"C": "",
+"D": "Životní pojištění pro případ smrti je typicky obnosové."
+}
+},
+{
+"id": "zivotni_011",
+"topic": "Životní pojištění",
+"question": "Co platí o zaplacení pojistného ve vztahu ke vzniku pojistné smlouvy?",
+"options": {
+"A": "Smlouva vzniká pouze v okamžiku připsání platby na účet.",
+"B": "Neplacení pojistného je důvodem pro automatický nevznik smlouvy.",
+"C": "Bez potvrzení o zaplacení nelze pojištění do 30 dní vypovědět.",
+"D": "Zaplacení pojistného nemusí být podmínkou vzniku smlouvy."
+},
+"correct": "D",
+"explainCorrect": "Pojištění vzniká od dne uvedeného ve smlouvě, i když pojistné ještě nebylo zaplaceno (vzniká dluh).",
+"explainWrong": {
+"A": "Pojištění vzniká od data uvedeného ve smlouvě, nikoliv od momentu platby.",
+"B": "Neplacení nemusí být důvod nevzniknutí smlouvy, pojišťovně vzniká právo na pojistné.",
+"C": "Právo na odstoupení do 30 dní není vázáno na faktickou úhradu.",
+"D": ""
+}
+},
+{
+"id": "zivotni_012",
+"topic": "Životní pojištění",
+"question": "V jaké lhůtě po uzavření je možné odstoupit od životního pojištění?",
+"options": {
+"A": "Do 30 dní.",
+"B": "Do 14 dní.",
+"C": "Do konce pojistného období.",
+"D": "Do 2 měsíců."
+},
+"correct": "A",
+"explainCorrect": "Ze životního pojištění je možné odstoupit do 30 dní.",
+"explainWrong": {
+"A": "",
+"B": "Tato lhůta neodpovídá informacím o zániku ŽP v prezentaci.",
+"C": "V této lhůtě smlouva zaniká v případě výpovědi ze strany klienta.",
+"D": "Tato doba přesahuje zákonnou možnost odstoupení uvedenou v prezentaci."
+}
+},
+{
+"id": "zivotni_013",
+"topic": "Životní pojištění",
+"question": "Která situace nastane, pokud je v jedné smlouvě pojištěno více osob (např. oba rodiče) a jedna z nich zemře?",
+"options": {
+"A": "Pojistné plnění se nevyplatí a smlouva zaniká pro všechny účastníky okamžitě.",
+"B": "Smlouva běží dále pro zbývající pojištěnou osobu.",
+"C": "Celá smlouva se automaticky převádí na určenou obmyšlenou osobu.",
+"D": "Pojišťovna je povinna smlouvu do 30 dnů vypovědět bez nároku na plnění."
+},
+"correct": "B",
+"explainCorrect": "Pokud bylo pojištěno více osob (tatínek + maminka), smlouva po úmrtí jedné z nich běží dále.",
+"explainWrong": {
+"A": "Smlouva úmrtím zaniká obecně, ale při více pojištěných pokračuje.",
+"B": "",
+"C": "Obmyšlená osoba dostává plnění za smrt, nikoliv samotnou smlouvu k užívání.",
+"D": "Pojišťovna nesmí životní pojištění sama vypovědět."
+}
+},
+{
+"id": "zivotni_014",
+"topic": "Životní pojištění",
+"question": "Které z následujících pojištění může pojistitel (pojišťovna) vypovědět?",
+"options": {
+"A": "Investiční životní pojištění.",
+"B": "Kapitálové životní pojištění.",
+"C": "Neživotní pojištění.",
+"D": "Rizikové životní pojištění."
+},
+"correct": "C",
+"explainCorrect": "Životní pojištění nemůže pojišťovna ukončit, neživotní ano.",
+"explainWrong": {
+"A": "Spadá pod životní pojištění, které pojišťovna nesmí vypovědět.",
+"B": "Jde o typ životního pojištění chráněného proti výpovědi.",
+"C": "",
+"D": "I riziková složka životního pojištění je před výpovědí pojišťovnou chráněna."
+}
+},
+{
+"id": "zivotni_015",
+"topic": "Životní pojištění",
+"question": "Kdo je v případě rezervotvorných pojistek oprávněn k přijetí „Odkupného“?",
+"options": {
+"A": "Obmyšlená osoba.",
+"B": "Pojištěný.",
+"C": "Dědic.",
+"D": "Pojistník."
+},
+"correct": "D",
+"explainCorrect": "Odkupné (pro rezervotvorné pojistky) náleží pojistníkovi.",
+"explainWrong": {
+"A": "Ta dostává plnění pouze v případě smrti pojištěného.",
+"B": "Pojištěný dostává pojistné plnění za invaliditu nebo nemoc.",
+"C": "Dědic dostává plnění za smrt až jako poslední v řadě.",
+"D": ""
+}
+},
+{
+"id": "zivotni_016",
+"topic": "Životní pojištění",
+"question": "Jaké je pořadí osob pro výplatu plnění za smrt pojištěného, pokud nebyla určena obmyšlená osoba?",
+"options": {
+"A": "Manželka, pokud není, tak děti, pokud nejsou, tak rodiče, pokud nejsou, tak dědici.",
+"B": "Dědici, pokud nejsou, tak stát, pokud není, tak pojistník.",
+"C": "Pojištěný, pokud není, tak manželka, pokud není, tak děti.",
+"D": "Rodiče, pokud nejsou, tak dědici, pokud nejsou, tak manželka."
+},
+"correct": "A",
+"explainCorrect": "Zákon stanovuje přesné pořadí: manželka -> děti -> rodiče -> dědici.",
+"explainWrong": {
+"A": "",
+"B": "Dědici jsou až na konci řady, přednost mají blízcí příbuzní.",
+"C": "Pojištěný za svou smrt plnění dostat nemůže; je určen pro dožití.",
+"D": "Manželka a děti mají v pořadí přednost před rodiči."
+}
+},
+{
+"id": "zivotni_017",
+"topic": "Životní pojištění",
+"question": "Co je hlavní rolí pojišťovacího zprostředkovatele?",
+"options": {
+"A": "Likvidace pojistných událostí.",
+"B": "Distribuce (zprostředkování) pojištění.",
+"C": "Výběr pojistného od klientů.",
+"D": "Správa investičních rezerv pojišťoven."
+},
+"correct": "B",
+"explainCorrect": "Role zprostředkovatele spočívá v distribuci pojištění.",
+"explainWrong": {
+"A": "Likvidaci událostí provádí pojišťovna, nikoliv zprostředkovatel.",
+"B": "",
+"C": "Zprostředkovatel nesmí vybírat pojistné.",
+"D": "Investování rezerv je úkolem pojišťovny dle zákona."
+}
+},
+{
+"id": "zivotni_018",
+"topic": "Životní pojištění",
+"question": "Které činnosti jsou pojišťovacímu zprostředkovateli výslovně zakázány?",
+"options": {
+"A": "Poskytovat doporučení u komplexních produktů.",
+"B": "Dostávat provizi u rezervotvorných pojistek.",
+"C": "Vybírat pojistné a zprostředkovávat pojistné plnění.",
+"D": "Seznamovat zájemce s pojistnými podmínkami."
+},
+"correct": "C",
+"explainCorrect": "Zprostředkovatel nesmí vybírat pojistné ani zprostředkovávat pojistné plnění.",
+"explainWrong": {
+"A": "Naopak, u rizikového ŽP poskytuje doporučení a u rezervotvorného radu.",
+"B": "Zprostředkovatel standardně dostává odměnu formou provize.",
+"C": "",
+"D": "To je jeho základní povinnost před uzavřením smlouvy."
+}
+},
+{
+"id": "zivotni_019",
+"topic": "Životní pojištění",
+"question": "Jak je u rezervotvorných pojistek typicky vyplácena provize zprostředkovateli?",
+"options": {
+"A": "Celá částka jednorázově při podpisu.",
+"B": "Vždy až po uplynutí 10 let trvání.",
+"C": "Pouze pokud klient uplatní plnění.",
+"D": "Je rozdělena do 5 let."
+},
+"correct": "D",
+"explainCorrect": "U rezervotvorných pojistek je provize rozdělena do 5 let.",
+"explainWrong": {
+"A": "Rozdělení do více let je standardním opatřením u rezervotvorných produktů.",
+"B": "Tato doba je příliš dlouhá, prezentace uvádí horizont 5 let.",
+"C": "Provize je odměnou za distribuci, nikoliv za pojistnou událost.",
+"D": ""
+}
+},
+{
+"id": "zivotni_020",
+"topic": "Životní pojištění",
+"question": "Co je základní myšlenkou pojištění a proč mají některé osoby zamezen vstup do „sdružení“?",
+"options": {
+"A": "Sdružení za účelem sdílení likvidačních rizik, kam nesmí vstoupit podvodníci a lidé významně rizikovější než zbytek skupiny.",
+"B": "Vytvoření zisku pro akcionáře pojišťovny tím, že se vyloučí všichni lidé s příjmem pod průměrem.",
+"C": "Garance zisku pro každého účastníka, přičemž vstup je zakázán pouze těm, kdo nemají trvalý pobyt v ČR.",
+"D": "Povinná solidarita všech občanů, kde jsou výluky pouze formálním doplňkem bez reálného vlivu na plnění."
+},
+"correct": "A",
+"explainCorrect": "Pojištění funguje na principu sdílení nahodilých rizik, proto jsou vyloučeni ti, co chtějí pojištění zneužít.",
+"explainWrong": {
+"A": "",
+"B": "Pojištění chrání proti rizikům, výše příjmu není důvodem pro zákaz vstupu.",
+"C": "Pojištění není spoření s garantovaným ziskem pro každého.",
+"D": "Výluky jsou klíčovým nástrojem ochrany pojišťoven před úmyslným jednáním."
+}
+},
+{
+"id": "zivotni_021",
+"topic": "Životní pojištění",
+"question": "Jak pojišťovna obvykle reaguje na pojistnou událost způsobenou požitím alkoholu?",
+"options": {
+"A": "Plní vždy v plné výši bez ohledu na okolnosti.",
+"B": "Buď neplní vůbec, nebo pojistné plnění sníží na polovinu.",
+"C": "Plnění zvýší o sankční poplatek za nezodpovědné chování.",
+"D": "Vyplatí plnění pouze dědicům v posledním pořadí."
+},
+"correct": "B",
+"explainCorrect": "Při požití alkoholu pojišťovna buď neplní vůbec, nebo plnění krátí na polovinu.",
+"explainWrong": {
+"A": "Alkohol je typickým omezením pojistného plnění uvedeným ve výlukách.",
+"B": "",
+"C": "Sankce znamená krácení plnění, nikoliv jeho navýšení.",
+"D": "Alkohol plnění krátí bez ohledu na to, kdo je oprávněnou osobou."
+}
+},
+{
+"id": "zivotni_022",
+"topic": "Životní pojištění",
+"question": "Z jakého důvodu pojišťovny provádějí zkoumání zdravotního stavu u životního pojištění?",
+"options": {
+"A": "Aby získaly podklady pro marketingové kampaně farmaceutických společností.",
+"B": "Jako podmínku pro výplatu odkupného v případě, že se klient rozhodne smlouvu ukončit dohodou.",
+"C": "Aby mohly rozhodnout o přijetí do pojištění a stanovit odpovídající cenu pro rizikovější osoby.",
+"D": "Pro účely zjištění promlčecí lhůty, která se u nemocných osob zkracuje na polovinu."
+},
+"correct": "C",
+"explainCorrect": "Zkoumání zdravotního stavu odlišuje rizikovější osoby a určuje cenu pojistky.",
+"explainWrong": {
+"A": "Účelem je ocenění rizika pro danou smlouvu, nikoliv marketing.",
+"B": "Odkupné náleží pojistníkovi u rezervotvorných pojistek nezávisle na zdraví.",
+"C": "",
+"D": "Promlčecí lhůta je dána zákonem a zdravotní stav na ni nemá vliv."
+}
+},
+{
+"id": "zivotni_023",
+"topic": "Životní pojištění",
+"question": "Co může pojišťovna udělat, pokud klient odpoví na otázky o zdravotním stavu nepravdivě?",
+"options": {
+"A": "Musí plnit v plné výši, pokud už smlouva trvá déle než jeden rok.",
+"B": "Má právo požadovat doplatek pojistného za celou dobu trvání zpětně.",
+"C": "Je povinna nahlásit klienta České národní bance pro pokutu 10 mil. Kč.",
+"D": "Může odmítnout pojistné plnění nebo od pojistné smlouvy odstoupit."
+},
+"correct": "D",
+"explainCorrect": "Nepravdivé údaje vedou k nesprávnému ocenění rizika, což dává pojišťovně právo neplnit nebo smlouvu zrušit.",
+"explainWrong": {
+"A": "Nepravdivé odpovědi jsou důvodem, proč se plnění neposkytne.",
+"B": "Hlavním následkem je možnost neplnit při události.",
+"C": "Tato pokuta se týká zprostředkovatelů, nikoliv lži klienta.",
+"D": ""
+}
+},
+{
+"id": "zivotni_024",
+"topic": "Životní pojištění",
+"question": "Kdy pojišťovna standardně provádí zjišťování zdravotního stavu klienta?",
+"options": {
+"A": "V okamžiku uzavření smlouvy nebo při požadavku na její navýšení.",
+"B": "Každé dva roky během trvání pojistné doby formou povinné prohlídky.",
+"C": "Výhradně až v okamžiku, kdy dojde k pojistné události a žádosti o plnění.",
+"D": "Pouze pokud o to klient sám písemně požádá z důvodu slevy na pojistném."
+},
+"correct": "A",
+"explainCorrect": "Zdravotní stav se zkoumá při vstupu do pojištění nebo při změně rizik. Zároveň pojišťova ověřuje pravdivost informací ve zdravotním dotazníku, pokud dojde k velké pojistné události.",
+"explainWrong": {
+"A": "",
+"B": "Pojišťovna nesmí ŽP sama vypovědět na základě zdraví po jeho vzniku.",
+"C": "Zdravotní stav se zkoumá pro ocenění rizika předem.",
+"D": "Zkoumání je iniciativa pojišťovny pro správné rozhodnutí o přijetí."
+}
+}
+]
