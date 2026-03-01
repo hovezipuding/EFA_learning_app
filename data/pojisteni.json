@@ -78,7 +78,7 @@
 {
 "id": "zivotni_004",
 "topic": "Životní pojištění",
-"question": "Jak se nazývá dokument, který zprostředkovatel sepíše s klientem po jednání o pojištění?",
+"question": "Jak se nazývá dokument, který zprostředkovatel sepíše s klientem při jednání o pojištění?",
 "options": {
 "A": "Záznam z jednání.",
 "B": "Sdělení klíčových informací.",
@@ -120,8 +120,8 @@
 "options": {
 "A": "Životní i neživotní pojištění lze vypovědět kdykoliv bez omezení.",
 "B": "Pouze životní pojištění lze vypovědět ihned po vzniku pojistné události.",
-"C": "Životní pojištění nemůže pojišťovna sama vypovědět, zatímco neživotní pojištění ano.",
-"D": "Neživotní pojištění nelze vypovědět, pokud majetek stále existuje."
+"C": "Životní pojištění nemůže pojišťovna sama vypovědět, ale neživotní pojištění ano.",
+"D": "Neživotní pojištění nelze vypovědět, pokud pojištěný majetek stále existuje a je v dobrém stavu."
 },
 "correct": "C",
 "explainCorrect": "ŽP se uzavírá na dlouhou dobu a pojišťovna ho nesmí vypovědět, aby ochrana zůstala zachována i při zhoršení zdraví.",
@@ -243,7 +243,7 @@
 "A": "",
 "B": "Tato lhůta neodpovídá informacím o zániku ŽP v prezentaci.",
 "C": "V této lhůtě smlouva zaniká v případě výpovědi ze strany klienta.",
-"D": "Tato doba přesahuje zákonnou možnost odstoupení uvedenou v prezentaci."
+"D": "Tato doba přesahuje zákonnou možnost odstoupení uvedenou v zákoně."
 }
 },
 {
@@ -368,10 +368,10 @@
 "A": "Celá částka jednorázově při podpisu.",
 "B": "Vždy až po uplynutí 10 let trvání.",
 "C": "Pouze pokud klient uplatní plnění.",
-"D": "Je rozdělena do 5 let."
+"D": "Průběžně, nebo zálohově."
 },
 "correct": "D",
-"explainCorrect": "U rezervotvorných pojistek je provize rozdělena do 5 let.",
+"explainCorrect": "U zálohové platby se vyplácí 5 let dopředu a při předčasném ukončení se poměrná část provize vrací a u průběžné se vyplácí zpravidla každý rok.",
 "explainWrong": {
 "A": "Rozdělení do více let je standardním opatřením u rezervotvorných produktů.",
 "B": "Tato doba je příliš dlouhá, prezentace uvádí horizont 5 let.",
