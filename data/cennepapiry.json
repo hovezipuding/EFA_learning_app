@@ -1,0 +1,304 @@
+[
+{
+"id": "akcie_000",
+"topic": "Akcie",
+"question": "Společnost má $P/E=10$, zatímco odvětvový průměr je 25 a zisky jsou stabilní. Co to pravděpodobně signalizuje?",
+"options": {
+"A": "Akcie je pravděpodobně podhodnocená (value).",
+"B": "Akcie je pravděpodobně nadhodnocená.",
+"C": "Akcie má beta $>1$, tudíž je rizikovější než trh.",
+"D": "Z definice je akcie nelikvidní."
+},
+"correct": "A",
+"explainCorrect": "Nízký poměr ceny k ziskům oproti průměru trhu naznačuje, že je akcie levná (podhodnocená).",
+"explainWrong": {
+"A": "",
+"B": "Nadhodnocená akcie by měla $P/E$ vyšší než průměr.",
+"C": "$P/E$ neudává citlivost na trh (betu).",
+"D": "Poměrové ukazatele zisku neurčují likviditu."
+}
+},
+{
+"id": "akcie_001",
+"topic": "Akcie",
+"question": "Který z následujících pojmů patří do fundamentální analýzy akcií?",
+"options": {
+"A": "Diskontované peněžní toky (DCF).",
+"B": "Klouzavý průměr (MA).",
+"C": "Index relativní síly (RSI).",
+"D": "Svíčkové patterny (candlesticks)."
+},
+"correct": "A",
+"explainCorrect": "DCF je klíčový model pro výpočet vnitřní hodnoty akcie na základě budoucích příjmů.",
+"explainWrong": {
+"A": "",
+"B": "Toto je nástroj technické analýzy, který zkoumá grafy, nikoliv vnitřní hodnotu firmy.",
+"C": "Toto je nástroj technické analýzy, který zkoumá grafy, nikoliv vnitřní hodnotu firmy.",
+"D": "Toto je nástroj technické analýzy, který zkoumá grafy, nikoliv vnitřní hodnotu firmy."
+}
+},
+{
+"id": "akcie_002",
+"topic": "Akcie",
+"question": "Který titul bude typicky považován za defenzivnější?",
+"options": {
+"A": "Akcie s beta $=0,7$.",
+"B": "Akcie s beta $=1,0$.",
+"C": "Akcie s beta $=1,5$.",
+"D": "Akcie s beta $=2,0$."
+},
+"correct": "A",
+"explainCorrect": "Beta nižší než 1 znamená, že akcie kolísá méně než tržní index, což je znakem defenzivních titulů.",
+"explainWrong": {
+"A": "",
+"B": "Vyšší beta indikuje stejné nebo vyšší kolísání (riziko) oproti trhu.",
+"C": "Vyšší beta indikuje stejné nebo vyšší kolísání (riziko) oproti trhu.",
+"D": "Vyšší beta indikuje stejné nebo vyšší kolísání (riziko) oproti trhu."
+}
+},
+{
+"id": "dluhopisy_000",
+"topic": "Dluhopisy",
+"question": "Která změna povede ke zvýšení ceny stávajícího fixně úročeného dluhopisu?",
+"options": {
+"A": "Pokles tržních úrokových sazeb.",
+"B": "Růst inflace a inflačních očekávání.",
+"C": "Zhoršení ratingu emitenta z BBB- na BB+.",
+"D": "Růst kupónu dluhopisu o 1 p. b. (u již vydaného fixního dluhopisu)."
+},
+"correct": "A",
+"explainCorrect": "Při poklesu sazeb se starší dluhopisy s vyšším fixním úrokem stávají žádanějšími a jejich cena roste.",
+"explainWrong": {
+"A": "",
+"B": "Inflace obvykle tlačí sazby vzhůru a ceny dluhopisů dolů.",
+"C": "Horší rating zvyšuje riziko a snižuje cenu.",
+"D": "U fixního dluhopisu nelze po vydání kupón měnit."
+}
+},
+{
+"id": "dluhopisy_001",
+"topic": "Dluhopisy",
+"question": "Který z následujících dluhopisů bude mít nejvyšší citlivost na změnu sazeb (největší duraci)?",
+"options": {
+"A": "2letý dluhopis s plovoucím (variabilním) kupónem.",
+"B": "10letý dluhopis s fixním kupónem 2%.",
+"C": "10letý dluhopis s fixním kupónem 8%.",
+"D": "3měsíční státní pokladniční poukázka."
+},
+"correct": "B",
+"explainCorrect": "Čím delší splatnost a nižší kupón, tím citlivěji cena reaguje na změnu sazeb.",
+"explainWrong": {
+"A": "Krátká splatnost nebo plovoucí úrok minimalizují citlivost na sazby.",
+"B": "",
+"C": "Vyšší kupón duraci snižuje, protože se investorovi vrací peníze dříve.",
+"D": "Krátká splatnost minimalizuje citlivost na sazby."
+}
+},
+{
+"id": "dluhopisy_002",
+"topic": "Dluhopisy",
+"question": "Dochází ke zhoršení ratingu emitenta z BBB- na BB+. Jaká klasifikace nyní platí?",
+"options": {
+"A": "Stále jde o investiční stupeň.",
+"B": "Přesun do spekulativního (high-yield) pásma.",
+"C": "Zlepšení kreditního rizika.",
+"D": "Automatické zkrácení doby do splatnosti."
+},
+"correct": "B",
+"explainCorrect": "Stupeň BB+ je první příčkou v tzv. spekulativním (neinvestičním) pásmu.",
+"explainWrong": {
+"A": "Investiční stupeň končí na hladině BBB-.",
+"B": "",
+"C": "Zhoršení ratingu znamená zvýšení kreditního rizika.",
+"D": "Rating nemá vliv na smluvní dobu splatnosti."
+}
+},
+{
+"id": "dluhopisy_003",
+"topic": "Dluhopisy",
+"question": "Dluhopis s ročním kupónem 5% se obchoduje za 104% nominálu. Co platí o jeho výnosu do splatnosti (YTM)?",
+"options": {
+"A": "Je nižší než 5%.",
+"B": "Je vyšší než 5%.",
+"C": "Je přesně 5%.",
+"D": "Bez znalosti splatnosti nelze rozhodnout."
+},
+"correct": "A",
+"explainCorrect": "Pokud investor kupuje dluhopis s prémiem (nad nominál), jeho celkový výnos bude nižší než vyplacený kupón.",
+"explainWrong": {
+"A": "",
+"B": "Vyšší výnos by nastal při nákupu pod nominální hodnotu (s diskontem).",
+"C": "YTM se rovná kupónu pouze tehdy, když se dluhopis prodává přesně za nominál (100%).",
+"D": "Vztah mezi cenou a výnosem lze určit i bez konkrétní doby splatnosti."
+}
+},
+{
+"id": "dluhopisy_004",
+"topic": "Dluhopisy",
+"question": "Spread 10Y-3M se stal záporným (inverzní křivka). Co to typicky signalizuje?",
+"options": {
+"A": "Zvyšující se pravděpodobnost ekonomické recese.",
+"B": "Snižující se pravděpodobnost ekonomické recese.",
+"C": "Pouze růst dlouhodobých sazeb.",
+"D": "Pouze pokles krátkodobých sazeb."
+},
+"correct": "A",
+"explainCorrect": "Inverze výnosové křivky je historicky silným varovným signálem přicházející recese.",
+"explainWrong": {
+"A": "",
+"B": "Inverzní křivka je negativní signál, nikoliv pozitivní.",
+"C": "Inverze nastává, když jsou krátkodobé sazby vyšší než dlouhodobé.",
+"D": "Inverze je o vztahu sazeb, nikoliv o pohybu jedné konkrétní hladiny."
+}
+},
+{
+"id": "dluhopisy_005",
+"topic": "Dluhopisy",
+"question": "Jak upravit dluhopisové portfolio při očekávání růstu úrokových sazeb?",
+"options": {
+"A": "Zvýšit průměrnou duraci (nakupovat dlouhodobé fixy).",
+"B": "Snížit průměrnou duraci (preferovat kratší splatnosti/plovoucí sazbu).",
+"C": "Durace nemá na citlivost vliv.",
+"D": "Preferovat pouze státní dluhopisy - tržní sazby se jich netýkají."
+},
+"correct": "B",
+"explainCorrect": "Krátká durace chrání portfolio před výrazným propadem cen při růstu sazeb.",
+"explainWrong": {
+"A": "Zvýšení durace by při růstu sazeb vedlo k vyšším ztrátám hodnoty portfolia.",
+"B": "",
+"C": "Durace je hlavním měřítkem citlivosti na změnu sazeb.",
+"D": "Tržní úrokové sazby ovlivňují ceny všech dluhopisů, včetně státních."
+}
+},
+{
+"id": "dluhopisy_006",
+"topic": "Dluhopisy",
+"question": "Dne 1. 4. 2025 nákup, kupón 5% p.a., výplata 31. 12. 2025, investováno 120 000 Kč. Prodej 31. 7. 2025 ($30/360$). Kolik činí AÚV?",
+"options": {
+"A": "1 000 Kč",
+"B": "1 500 Kč",
+"C": "2 000 Kč",
+"D": "2 500 Kč"
+},
+"correct": "C",
+"explainCorrect": "Za 4 měsíce držení (1/3 roku) náleží investorovi třetina z ročního 5% úroku (6 000 Kč), tedy 2 000 Kč.",
+"explainWrong": {
+"A": "Nesprávný výpočet časového poměru.",
+"B": "Nesprávný výpočet časového poměru.",
+"C": "",
+"D": "Nesprávný výpočet časového poměru."
+}
+},
+{
+"id": "dluhopisy_007",
+"topic": "Dluhopisy",
+"question": "Dluhopisový fond má modifikovanou duraci 4. Očekává se růst sazeb o 0,5 p. b. Jaká bude přibližná procentní změna ceny fondu?",
+"options": {
+"A": "+2,0%",
+"B": "-2,0%",
+"C": "0%",
+"D": "-0,5%"
+},
+"correct": "B",
+"explainCorrect": "Cena klesne o součin durace a změny sazeb: Odpoved vre vyvoji",
+"explainWrong": {
+"A": "Při růstu sazeb cena dluhopisu klesá, nikoliv roste.",
+"B": "",
+"C": "Změna sazeb má při nenulové duraci vždy vliv na cenu.",
+"D": "Změna je násobkem durace, nikoliv jen prostým rozdílem sazeb."
+}
+},
+{
+"id": "dluhopisy_008",
+"topic": "Dluhopisy",
+"question": "Který z následujících dluhopisů bude při stejné splatnosti mít nejkratší duraci?",
+"options": {
+"A": "Fixně úročený s kupónem 2%.",
+"B": "Fixně úročený s kupónem 6%.",
+"C": "Nulový (diskontovaný) dluhopis.",
+"D": "Dluhopis s plovoucí úrokovou sazbou."
+},
+"correct": "D",
+"explainCorrect": "U variabilního úročení se cena pravidelně přizpůsobuje trhu, což dramaticky snižuje duraci.",
+"explainWrong": {
+"A": "Nízký kupón duraci naopak zvyšuje.",
+"B": "Vyšší kupón duraci snižuje oproti nízkému, ale plovoucí sazba je ještě kratší.",
+"C": "Nulový dluhopis má nejvyšší možnou duraci rovnou své splatnosti."
+}
+},
+{
+"id": "dluhopisy_009",
+"topic": "Dluhopisy",
+"question": "Správce portfolia očekává pokles sazeb. Co udělá, aby maximalizoval zisk z cenového pohybu?",
+"options": {
+"A": "Nakoupí dlouhodobé fixně úročené dluhopisy (zvýší duraci).",
+"B": "Přejde na krátké splatnosti a plovoucí kupóny (sníží duraci).",
+"C": "Durace s tím nesouvisí.",
+"D": "Nakoupí pouze diskontované dluhopisy, protože ty na sazby nereagují."
+},
+"correct": "A",
+"explainCorrect": "Čím delší durace, tím vyšší nárůst ceny při poklesu sazeb.",
+"explainWrong": {
+"A": "",
+"B": "Snížení durace by minimalizovalo zisky z pohybu sazeb.",
+"C": "Durace je klíčový ukazatel pro řízení zisků z pohybu sazeb.",
+"D": "Diskontované dluhopisy reagují na sazby velmi citlivě (mají maximální duraci)."
+}
+},
+{
+"id": "dluhopisy_010",
+"topic": "Dluhopisy",
+"question": "Jaká je cena dluhopisu (roční kupón 6%, splatnost 2 roky, nominál 10 000 Kč) při $YTM = 4%?",
+"options": {
+"A": "10 377 Kč",
+"B": "10 200 Kč",
+"C": "9 800 Kč",
+"D": "10 600 Kč"
+},
+"correct": "A",
+"explainCorrect": "Aktuální cena se vypočítá diskontováním budoucích plateb (600 a 10 600) sazbou 4%.",
+"explainWrong": {
+"A": "",
+"B": "Chybný výpočet diskontu.",
+"C": "Cena musí být nad nominál, protože kupón je vyšší než YTM.",
+"D": "Příliš vysoký odhad ceny."
+}
+},
+{
+"id": "dluhopisy_011",
+"topic": "Dluhopisy",
+"question": "Jaká je cena dluhopisu (roční kupón 5%, splatnost 3 roky, nominál 20 000 Kč) při YTM = 6%?",
+"options": {
+"A": "19 465 Kč",
+"B": "20 000 Kč",
+"C": "19 000 Kč",
+"D": "21 000 Kč"
+},
+"correct": "A",
+"explainCorrect": "Jelikož je tržní výnos (6%) vyšší než kupón (5%), dluhopis se musí prodávat s diskontem (pod nominál).",
+"explainWrong": {
+"A": "",
+"B": "Cena se rovná nominálu pouze tehdy, když se YTM rovná kupónu.",
+"C": "Chybný výpočet diskontu.",
+"D": "Cena nemůže být nad nominál, když je tržní výnos vyšší než kupón."
+}
+},
+{
+"id": "dluhopisy_012",
+"topic": "Dluhopisy",
+"question": "Dluhopis se obchoduje za 98% nominálu a nese fixní roční kupón 3%. Co platí o YTM?",
+"options": {
+"A": "YTM je nižší než 3%.",
+"B": "YTM je rovno 3%.",
+"C": "YTM je vyšší než 3%.",
+"D": "YTM nelze určit bez znalosti ratingu."
+},
+"correct": "C",
+"explainCorrect": "Nákup pod nominálem znamená dodatečný kapitálový zisk při splatnosti, což zvyšuje celkový výnos ($YTM$) nad úroveň kupónu.",
+"explainWrong": {
+"A": "Nižší YTM by nastal při nákupu s prémiem (nad 100%).",
+"B": "Rovnost platí pouze při ceně 100% nominálu.",
+"D": "YTM lze matematicky odvodit z ceny a kupónu bez ohledu na rating."
+}
+}
+]
