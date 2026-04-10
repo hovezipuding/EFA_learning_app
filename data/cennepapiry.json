@@ -2,19 +2,19 @@
 {
 "id": "akcie_000",
 "topic": "Akcie",
-"question": "Společnost má $P/E=10$, zatímco odvětvový průměr je 25 a zisky jsou stabilní. Co to pravděpodobně signalizuje?",
+"question": "Společnost má P/E=10, zatímco odvětvový průměr je 25 a zisky jsou stabilní. Co to pravděpodobně signalizuje?",
 "options": {
 "A": "Akcie je pravděpodobně podhodnocená (value).",
 "B": "Akcie je pravděpodobně nadhodnocená.",
-"C": "Akcie má beta $>1$, tudíž je rizikovější než trh.",
+"C": "Akcie má beta >1, tudíž je rizikovější než trh.",
 "D": "Z definice je akcie nelikvidní."
 },
 "correct": "A",
 "explainCorrect": "Nízký poměr ceny k ziskům oproti průměru trhu naznačuje, že je akcie levná (podhodnocená).",
 "explainWrong": {
 "A": "",
-"B": "Nadhodnocená akcie by měla $P/E$ vyšší než průměr.",
-"C": "$P/E$ neudává citlivost na trh (betu).",
+"B": "Nadhodnocená akcie by měla P/E vyšší než průměr.",
+"C": "P/E neudává citlivost na trh (betu).",
 "D": "Poměrové ukazatele zisku neurčují likviditu."
 }
 },
@@ -28,11 +28,11 @@
 "C": "Index relativní síly (RSI).",
 "D": "Svíčkové patterny (candlesticks)."
 },
-"correct": "A",
+"correct": "B",
 "explainCorrect": "DCF je klíčový model pro výpočet vnitřní hodnoty akcie na základě budoucích příjmů.",
 "explainWrong": {
-"A": "",
-"B": "Toto je nástroj technické analýzy, který zkoumá grafy, nikoliv vnitřní hodnotu firmy.",
+"A": "Toto je nástroj technické analýzy, který zkoumá grafy, nikoliv vnitřní hodnotu firmy",
+"B": "",
 "C": "Toto je nástroj technické analýzy, který zkoumá grafy, nikoliv vnitřní hodnotu firmy.",
 "D": "Toto je nástroj technické analýzy, který zkoumá grafy, nikoliv vnitřní hodnotu firmy."
 }
@@ -42,10 +42,10 @@
 "topic": "Akcie",
 "question": "Který titul bude typicky považován za defenzivnější?",
 "options": {
-"A": "Akcie s beta $=0,7$.",
-"B": "Akcie s beta $=1,0$.",
-"C": "Akcie s beta $=1,5$.",
-"D": "Akcie s beta $=2,0$."
+"A": "Akcie s beta 0,7.",
+"B": "Akcie s beta 1,0.",
+"C": "Akcie s beta 1,5.",
+"D": "Akcie s beta -0,1."
 },
 "correct": "A",
 "explainCorrect": "Beta nižší než 1 znamená, že akcie kolísá méně než tržní index, což je znakem defenzivních titulů.",
@@ -53,7 +53,7 @@
 "A": "",
 "B": "Vyšší beta indikuje stejné nebo vyšší kolísání (riziko) oproti trhu.",
 "C": "Vyšší beta indikuje stejné nebo vyšší kolísání (riziko) oproti trhu.",
-"D": "Vyšší beta indikuje stejné nebo vyšší kolísání (riziko) oproti trhu."
+"D": "Záporná beta je vzácná a u akcií obvykle znamená, že daná společnost má specifické postavení, které těží z problémů v širší ekonomice.."
 }
 },
 {
@@ -173,7 +173,7 @@
 {
 "id": "dluhopisy_006",
 "topic": "Dluhopisy",
-"question": "Dne 1. 4. 2025 nákup, kupón 5% p.a., výplata 31. 12. 2025, investováno 120 000 Kč. Prodej 31. 7. 2025 ($30/360$). Kolik činí AÚV?",
+"question": "Dne 1. 4. 2025 nákup, kupón 5% p.a., výplata 31. 12. 2025, investováno 120 000 Kč. Prodej 31. 7. 2025 (30/360). Kolik činí AÚV?",
 "options": {
 "A": "1 000 Kč",
 "B": "1 500 Kč",
@@ -248,7 +248,7 @@
 {
 "id": "dluhopisy_010",
 "topic": "Dluhopisy",
-"question": "Jaká je cena dluhopisu (roční kupón 6%, splatnost 2 roky, nominál 10 000 Kč) při $YTM = 4%?",
+"question": "Jaká je cena dluhopisu (roční kupón 6%, splatnost 2 roky, nominál 10 000 Kč) při YTM = 4%?",
 "options": {
 "A": "10 377 Kč",
 "B": "10 200 Kč",
@@ -294,11 +294,600 @@
 "D": "YTM nelze určit bez znalosti ratingu."
 },
 "correct": "C",
-"explainCorrect": "Nákup pod nominálem znamená dodatečný kapitálový zisk při splatnosti, což zvyšuje celkový výnos ($YTM$) nad úroveň kupónu.",
+"explainCorrect": "Nákup pod nominálem znamená dodatečný kapitálový zisk při splatnosti, což zvyšuje celkový výnos (YTM) nad úroveň kupónu.",
 "explainWrong": {
 "A": "Nižší YTM by nastal při nákupu s prémiem (nad 100%).",
 "B": "Rovnost platí pouze při ceně 100% nominálu.",
 "D": "YTM lze matematicky odvodit z ceny a kupónu bez ohledu na rating."
+}
+},
+ {
+"id": "dluhopisy_013",
+"topic": "Dluhopisy",
+"question": "Co je dluhopis?",
+"options": {
+"A": "Dluhový cenný papír, kterým investor půjčuje emitentovi peníze.",
+"B": "Podíl na vlastním kapitálu společnosti s právem na dividendu.",
+"C": "Nástroj určený výhradně ke spekulaci na vývoj úrokových sazeb.",
+"D": "Finanční derivát bez vazby na reálné cash flow."
+},
+"correct": "A",
+"explainCorrect": "Dluhopis představuje závazek emitenta vyplatit investorovi půjčenou částku a úrok.",
+"explainWrong": {
+"A": "",
+"B": "Toto je definice akcie, nikoliv dluhopisu.",
+"C": "Dluhopisy slouží primárně k financování a konzervativnímu zhodnocení, nikoliv jen ke spekulaci.",
+"D": "Dluhopis není derivát; má přímou vazbu na tok peněz (kupóny a jistinu)."
+}
+},
+{
+"id": "dluhopisy_014",
+"topic": "Dluhopisy",
+"question": "Co je kupón dluhopisu?",
+"options": {
+"A": "Jednorázová splátka jistiny při splatnosti.",
+"B": "Poplatek za nákup dluhopisu na trhu.",
+"C": "Pravidelná úroková platba vyplácená držiteli dluhopisu.",
+"D": "Rozdíl mezi tržní a nominální hodnotou dluhopisu."
+},
+"correct": "C",
+"explainCorrect": "Kupón představuje smluvně daný úrok, který emitent vyplácí v pravidelných intervalech.",
+"explainWrong": {
+"A": "Splátka jistiny se týká nominální hodnoty vyplacené při splatnosti.",
+"B": "To je transakční náklad nebo provize zprostředkovateli.",
+"C": "",
+"D": "Tento rozdíl se označuje jako agio (nad pari) nebo disagio (pod pari)."
+}
+},
+{
+"id": "dluhopisy_015",
+"topic": "Dluhopisy",
+"question": "Jaký vztah platí mezi úrokovými sazbami a cenou dluhopisu?",
+"options": {
+"A": "Při růstu sazeb cena dluhopisu obvykle klesá.",
+"B": "Při růstu sazeb cena dluhopisu vždy roste.",
+"C": "Mezi sazbami a cenou není žádný vztah.",
+"D": "Cena dluhopisu je fixní bez ohledu na trh."
+},
+"correct": "A",
+"explainCorrect": "Mezi tržními úrokovými sazbami a cenou dluhopisů s fixním kupónem existuje inverzní vztah.",
+"explainWrong": {
+"A": "",
+"B": "Při růstu sazeb se stávají starší dluhopisy méně výhodnými, proto jejich cena padá.",
+"C": "Vazba je velmi silná a tvoří základ úrokového rizika.",
+"D": "Cena dluhopisu na sekundárním trhu kolísá podle poptávky a vývoje sazeb."
+}
+},
+{
+"id": "dluhopisy_016",
+"topic": "Dluhopisy",
+"question": "Proč cena dluhopisu při růstu sazeb klesá?",
+"options": {
+"A": "Dluhopis přestává vyplácet kupón.",
+"B": "Emitent automaticky snižuje jistinu.",
+"C": "Dluhopis ztrácí splatnost.",
+"D": "Nové dluhopisy na trhu nesou vyšší výnos, takže starší jsou méně atraktivní."
+},
+"correct": "D",
+"explainCorrect": "Investor raději koupí nový dluhopis s vyšším úrokem. Aby někdo koupil ten starý s nižším úrokem, musí být levnější.",
+"explainWrong": {
+"A": "Kupón je dán smlouvou a vyplácí se beze změny dál.",
+"B": "Jistina (nominál) je fixní a emitent ji musí splatit v plné výši.",
+"C": "Splatnost je pevně stanovené datum, které se nemění.",
+"D": ""
+}
+},
+{
+"id": "dluhopisy_017",
+"topic": "Dluhopisy",
+"question": "Co měří durace dluhopisu?",
+"options": {
+"A": "Výši kupónu v procentech.",
+"B": "Citlivost ceny dluhopisu na změnu úrokových sazeb.",
+"C": "Pravděpodobnost defaultu emitenta.",
+"D": "Výši inflace v ekonomice."
+},
+"correct": "B",
+"explainCorrect": "Durace udává, o kolik procent se přibližně změní cena dluhopisu při změně sazeb o 1 procentní bod.",
+"explainWrong": {
+"A": "To vyjadřuje kupónová sazba.",
+"B": "",
+"C": "To vyjadřuje kreditní riziko nebo rating, nikoliv durace.",
+"D": "Inflaci měří indexy jako CPI, s durací dluhopisu přímo nesouvisí."
+}
+},
+{
+"id": "dluhopisy_018",
+"topic": "Dluhopisy",
+"question": "Jak lze interpretovat duraci dluhopisu?",
+"options": {
+"A": "Jako průměrnou dobu, za kterou investor získá peníze zpět.",
+"B": "Jako přesný termín splatnosti dluhopisu.",
+"C": "Jako výši ročního kupónu.",
+"D": "Jako rozdíl mezi cenou a nominální hodnotou."
+},
+"correct": "A",
+"explainCorrect": "Vyjadřuje vážený průměr doby, ve které investor obdrží cash flow z dluhopisu (kupóny a jistinu).",
+"explainWrong": {
+"A": "",
+"B": "Termín splatnosti je obvykle delší než durace, s výjimkou bezkupónových dluhopisů.",
+"C": "Kupón je úrok, nikoliv časový údaj.",
+"D": "To je cenová odchylka od nominálu."
+}
+},
+{
+"id": "dluhopisy_019",
+"topic": "Dluhopisy",
+"question": "Jaký vztah platí mezi durací a rizikem?",
+"options": {
+"A": "Nižší durace znamená vyšší citlivost na sazby.",
+"B": "Durace nemá na riziko žádný vliv.",
+"C": "Vyšší durace znamená vyšší úrokové riziko.",
+"D": "Durace určuje kreditní kvalitu emitenta."
+},
+"correct": "C",
+"explainCorrect": "Čím delší je durace, tím agresivněji reaguje cena dluhopisu na pohyb tržních sazeb.",
+"explainWrong": {
+"A": "Nižší durace naopak citlivost a úrokové riziko snižuje.",
+"B": "Durace je primárním ukazatelem úrokového rizika.",
+"C": "",
+"D": "Kreditní kvalitu určují ratingové agentury, nikoliv durace."
+}
+},
+{
+"id": "dluhopisy_020",
+"topic": "Dluhopisy",
+"question": "Jak se změní cena dluhopisu při růstu sazeb o 1 %, pokud má duraci 4?",
+"options": {
+"A": "Vzroste o 4 %.",
+"B": "Zůstane stejná.",
+"C": "Klesne o 1 %.",
+"D": "Klesne přibližně o 4 %."
+},
+"correct": "D",
+"explainCorrect": "Výpočet je přibližně -durace × změna sazeb, tedy -4 × 1 % = -4 %.",
+"explainWrong": {
+"A": "Sazby a cena jdou proti sobě; při růstu sazeb cena neroste.",
+"B": "Každý dluhopis s durací větší než 0 na změnu sazeb reaguje.",
+"C": "Pokles o 1 % by odpovídal dluhopisu s durací přibližně 1.",
+"D": ""
+}
+},
+{
+"id": "dluhopisy_021",
+"topic": "Dluhopisy",
+"question": "Který dluhopis bude méně kolísat při změně sazeb?",
+"options": {
+"A": "Krátkodobý dluhopis s nízkou durací.",
+"B": "Dlouhodobý dluhopis s fixním kupónem.",
+"C": "Dluhopis s vysokým kupónem a dlouhou splatností.",
+"D": "Jakýkoliv dluhopis bez ohledu na splatnost."
+},
+"correct": "A",
+"explainCorrect": "Čím dříve investor získá peníze zpět, tím méně je cena ovlivněna budoucími změnami sazeb.",
+"explainWrong": {
+"A": "",
+"B": "Dlouhá splatnost fixního kupónu znamená vyšší citlivost a kolísavost.",
+"C": "Dlouhá splatnost obvykle převáží efekt vyššího kupónu a zvyšuje volatilitu.",
+"D": "Splatnost a durace jsou klíčové faktory citlivosti dluhopisu."
+}
+},
+{
+"id": "dluhopisy_022",
+"topic": "Dluhopisy",
+"question": "Co platí pro variabilní dluhopis?",
+"options": {
+"A": "Má vysokou citlivost na sazby.",
+"B": "Nemá žádný výnos.",
+"C": "Má fixní kupón.",
+"D": "Jeho výnos se přizpůsobuje trhu, takže má nízké úrokové riziko."
+},
+"correct": "D",
+"explainCorrect": "Protože se kupón pravidelně upravuje podle aktuálních sazeb, tržní cena variabilního dluhopisu bývá relativně stabilní.",
+"explainWrong": {
+"A": "Má naopak nízkou citlivost, protože se úrok přizpůsobuje trhu.",
+"B": "Výnos má, obvykle složený z referenční sazby a marže.",
+"C": "Nemá fixní, ale plovoucí kupón.",
+"D": ""
+}
+},
+{
+"id": "dluhopisy_023",
+"topic": "Dluhopisy",
+"question": "Co znamená YTM (výnos do splatnosti)?",
+"options": {
+"A": "Roční kupón.",
+"B": "Inflaci.",
+"C": "Celkový výnos při držení do splatnosti.",
+"D": "Poplatky."
+},
+"correct": "C",
+"explainCorrect": "YTM zohledňuje kupóny, nákupní cenu i nominální hodnotu vyplacenou při splatnosti.",
+"explainWrong": {
+"A": "Kupón je jen jedna složka celkového výnosu.",
+"B": "YTM je nominální výnos dluhopisu; inflace ovlivňuje reálný výnos.",
+"C": "",
+"D": "Poplatky jsou nákladem, nikoliv definicí YTM."
+}
+},
+{
+"id": "dluhopisy_024",
+"topic": "Dluhopisy",
+"question": "Který dluhopis je více citlivý na sazby?",
+"options": {
+"A": "Dlouhodobý dluhopis.",
+"B": "Krátkodobý.",
+"C": "Variabilní.",
+"D": "Jakýkoliv."
+},
+"correct": "A",
+"explainCorrect": "Čím delší je čas do splatnosti, tím více se v ceně projeví diskontování budoucích plateb novými sazbami.",
+"explainWrong": {
+"A": "",
+"B": "Krátkodobé dluhopisy mají nižší duraci a bývají stabilnější.",
+"C": "Variabilní dluhopisy jsou na sazby citlivé minimálně.",
+"D": "Citlivost se mezi jednotlivými typy dluhopisů výrazně liší."
+}
+},
+{
+"id": "dluhopisy_025",
+"topic": "Dluhopisy",
+"question": "Co je alikvotní úrokový výnos (AÚV)?",
+"options": {
+"A": "Poměrná část kupónu odpovídající době držby od poslední výplaty kupónu.",
+"B": "Celkový výnos investora do splatnosti.",
+"C": "Rozdíl mezi nominální a tržní cenou dluhopisu.",
+"D": "Mimořádný výnos při předčasném splacení."
+},
+"correct": "A",
+"explainCorrect": "AÚV zajišťuje, že investor dostane úrok přesně za ty dny, kdy dluhopis vlastnil.",
+"explainWrong": {
+"A": "",
+"B": "To je YTM (výnos do splatnosti).",
+"C": "To je kapitálový zisk nebo ztráta, nikoliv AÚV.",
+"D": "AÚV je standardní součást ocenění dluhopisu, ne mimořádný výnos."
+}
+},
+{
+"id": "dluhopisy_026",
+"topic": "Dluhopisy",
+"question": "Jaký je rozdíl mezi nominální a tržní hodnotou?",
+"options": {
+"A": "Nominální se mění, tržní je fixní.",
+"B": "Nominální je pevná, tržní se mění dle trhu.",
+"C": "Jsou stejné.",
+"D": "Tržní určuje kupón."
+},
+"correct": "B",
+"explainCorrect": "Nominální hodnota je částka, kterou emitent dluží; tržní hodnota je cena, za kterou se dluhopis aktuálně prodává na trhu.",
+"explainWrong": {
+"A": "Je to naopak. Nominální hodnota je pevně stanovena emisí.",
+"B": "",
+"C": "Mohou být stejné při obchodování za pari, ale často se liší.",
+"D": "Kupón se obvykle počítá z nominální hodnoty, nikoliv z tržní ceny."
+}
+},
+{
+"id": "dluhopisy_027",
+"topic": "Dluhopisy",
+"question": "Co znamená obchodování nad pari?",
+"options": {
+"A": "Cena je vyšší než nominální hodnota.",
+"B": "Dluhopis je levnější než nominál.",
+"C": "Má vyšší inflaci.",
+"D": "Je rizikovější."
+},
+"correct": "A",
+"explainCorrect": "Například dluhopis s nominálem 10 000 Kč se obchoduje za 10 500 Kč, tedy za 105 % nominálu.",
+"explainWrong": {
+"A": "",
+"B": "To by bylo obchodování pod pari.",
+"C": "Cena dluhopisu neurčuje makroekonomickou inflaci.",
+"D": "Vyšší cena obvykle odráží atraktivnější výnosové parametry, nikoliv automaticky vyšší riziko."
+}
+},
+{
+"id": "dluhopisy_028",
+"topic": "Dluhopisy",
+"question": "Co znamená obchodování pod pari?",
+"options": {
+"A": "Má vyšší kupón než trh.",
+"B": "Je spekulativní.",
+"C": "Cena je nižší než nominální hodnota.",
+"D": "Nelze ho prodat."
+},
+"correct": "C",
+"explainCorrect": "Tržní cena dluhopisu je v tomto případě pod 100 % jeho nominální hodnoty.",
+"explainWrong": {
+"A": "Pod pari se obvykle obchodují dluhopisy, jejichž kupón je nižší než aktuální tržní sazby.",
+"B": "Pod pari se mohou obchodovat i velmi bezpečné dluhopisy.",
+"C": "",
+"D": "Likvidita nesouvisí přímo s tím, zda je cena nad nebo pod pari."
+}
+},
+{
+"id": "dluhopisy_029",
+"topic": "Dluhopisy",
+"question": "Jaké jsou druhy dluhopisů podle konstrukce?",
+"options": {
+"A": "Pouze státní a firemní.",
+"B": "Jen krátké a dlouhé.",
+"C": "Fixní, variabilní, bezkupónové, protiinflační apod.",
+"D": "Dividendové."
+},
+"correct": "C",
+"explainCorrect": "Toto dělení rozlišuje způsob, jakým dluhopis generuje výnos pro investora.",
+"explainWrong": {
+"A": "To je dělení podle emitenta.",
+"B": "To je dělení podle doby splatnosti.",
+"C": "",
+"D": "Dluhopisy nevyplácejí dividendy, ale kupóny nebo diskontní výnos."
+}
+},
+{
+"id": "dluhopisy_030",
+"topic": "Dluhopisy",
+"question": "Co znázorňuje rating dluhopisu?",
+"options": {
+"A": "Výši kupónu.",
+"B": "Citlivost na sazby.",
+"C": "Kreditní kvalitu emitenta.",
+"D": "Investiční doporučení."
+},
+"correct": "C",
+"explainCorrect": "Rating hodnotí schopnost a ochotu emitenta splatit své závazky včas a v plné výši.",
+"explainWrong": {
+"A": "Kupón je dán emisními podmínkami, rating ho jen nepřímo ovlivňuje při emisi.",
+"B": "Citlivost na sazby měří durace, nikoliv rating.",
+"C": "",
+"D": "Rating je nezávislé posouzení rizika, nikoliv pokyn k nákupu či prodeji."
+}
+},
+{
+"id": "dluhopisy_031",
+"topic": "Dluhopisy",
+"question": "Co znamená nad/pod pari?",
+"options": {
+"A": "Souvisí s ratingem.",
+"B": "Určuje typ kupónu.",
+"C": "Vyjadřuje vztah ceny k nominálu.",
+"D": "Určuje splatnost."
+},
+"correct": "C",
+"explainCorrect": "Vyjadřuje, zda za dluhopis na trhu platíte více, nebo méně, než je jeho nominální hodnota.",
+"explainWrong": {
+"A": "Rating hodnotí kreditní kvalitu, nikoliv vztah ceny k nominálu.",
+"B": "Typ kupónu může být fixní i variabilní bez ohledu na cenu nad nebo pod pari.",
+"C": "",
+"D": "Splatnost je časový údaj, nikoliv cenový vztah."
+}
+},
+{
+"id": "dluhopisy_032",
+"topic": "Dluhopisy",
+"question": "Co jsou státní pokladniční poukázky?",
+"options": {
+"A": "Krátkodobé státní dluhové cenné papíry (do 1 roku).",
+"B": "Dlouhodobé státní dluhopisy.",
+"C": "Komunální nástroje.",
+"D": "Bankovní produkty."
+},
+"correct": "A",
+"explainCorrect": "Slouží státu k vykrývání krátkodobého nesouladu v příjmech a výdajích rozpočtu.",
+"explainWrong": {
+"A": "",
+"B": "Dlouhodobé instrumenty jsou státní dluhopisy, nikoliv pokladniční poukázky.",
+"C": "Komunální dluhopisy vydávají města a obce, nikoliv stát.",
+"D": "Jde o cenné papíry, nikoliv bankovní účty nebo vklady."
+}
+},
+{
+"id": "dluhopisy_033",
+"topic": "Dluhopisy",
+"question": "Jak snížit duraci portfolia?",
+"options": {
+"A": "Nákup dlouhých dluhopisů.",
+"B": "Zvýšení kupónu.",
+"C": "Prodej dlouhých a nákup krátkých dluhopisů.",
+"D": "Zvýšení inflace."
+},
+"correct": "C",
+"explainCorrect": "Zkrácením průměrné splatnosti portfolia klesá jeho citlivost na pohyb sazeb.",
+"explainWrong": {
+"A": "To by duraci a úrokové riziko naopak zvýšilo.",
+"B": "Investor obvykle nemůže u již vydaných dluhopisů měnit kupón.",
+"C": "",
+"D": "Inflace je vnější faktor, nikoliv nástroj přímé správy durace portfolia."
+}
+},
+{
+"id": "dluhopisy_034",
+"topic": "Dluhopisy",
+"question": "Co je modifikovaná durace?",
+"options": {
+"A": "Splatnost.",
+"B": "% změna ceny při změně sazeb o 1 %.",
+"C": "Kupón.",
+"D": "Rating."
+},
+"correct": "B",
+"explainCorrect": "Modifikovaná durace přímo kvantifikuje přibližnou procentní změnu ceny dluhopisu při změně sazeb o 1 procentní bod.",
+"explainWrong": {
+"A": "Splatnost je čas do konce dluhopisu, modifikovaná durace je citlivost ceny.",
+"B": "",
+"C": "Kupón je úroková platba, nikoliv míra cenové citlivosti.",
+"D": "Rating hodnotí kreditní riziko, ne úrokové riziko."
+}
+},
+{
+"id": "dluhopisy_035",
+"topic": "Dluhopisy",
+"question": "Proč jsou dluhopisové fondy rizikovější než peněžní?",
+"options": {
+"A": "Nemají likviditu.",
+"B": "Mají vyšší poplatky.",
+"C": "Nemají výnos.",
+"D": "Mají vyšší duraci a citlivost na sazby."
+},
+"correct": "D",
+"explainCorrect": "Peněžní fondy investují do velmi krátkých nástrojů, zatímco dluhopisové fondy bývají více citlivé na výkyvy úrokových sazeb.",
+"explainWrong": {
+"A": "Oba typy fondů bývají zpravidla likvidní; rozdíl je hlavně v tržním riziku.",
+"B": "Výše poplatků sama o sobě neurčuje úrokové riziko fondu.",
+"C": "Výnos mají oba, dluhopisové fondy obvykle vyšší za cenu vyššího rizika.",
+"D": ""
+}
+},
+{
+"id": "dluhopisy_036",
+"topic": "Dluhopisy",
+"question": "Co se stane při poklesu sazeb?",
+"options": {
+"A": "Cena klesá.",
+"B": "Nemění se.",
+"C": "Cena roste.",
+"D": "Je nulová."
+},
+"correct": "C",
+"explainCorrect": "Nižší tržní sazby dělají ze stávajících dluhopisů s vyšším úrokem atraktivnější aktivum, a jejich cena proto roste.",
+"explainWrong": {
+"A": "To se typicky děje při růstu sazeb.",
+"B": "Cena dluhopisu na změnu sazeb obvykle reaguje.",
+"C": "",
+"D": "Cena nemůže být nulová, pokud je emitent schopen plnit své závazky."
+}
+},
+{
+"id": "dluhopisy_037",
+"topic": "Dluhopisy",
+"question": "Co znamená imunizace portfolia?",
+"options": {
+"A": "Ochrana proti inflaci.",
+"B": "Sladění durace portfolia s horizontem závazků.",
+"C": "Diverzifikace.",
+"D": "Snížení kupónu."
+},
+"correct": "B",
+"explainCorrect": "Tato technika eliminuje nebo omezuje dopad změn úrokových sazeb na hodnotu portfolia vzhledem k budoucím závazkům.",
+"explainWrong": {
+"A": "K ochraně proti inflaci slouží například protiinflační dluhopisy.",
+"B": "",
+"C": "Diverzifikace rozkládá riziko mezi více emitentů nebo tříd aktiv, imunizace řeší časové sladění.",
+"D": "Výše kupónu není cílem imunizace."
+}
+},
+{
+"id": "dluhopisy_038",
+"topic": "Dluhopisy",
+"question": "Co je alikvotní úrokový výnos detailně?",
+"options": {
+"A": "Část kupónu, kterou kupující doplácí prodávajícímu při nákupu mezi kupónovými daty.",
+"B": "Výnos dluhopisu při splatnosti.",
+"C": "Diskont dluhopisu.",
+"D": "Výnos při defaultu."
+},
+"correct": "A",
+"explainCorrect": "AÚV zajišťuje, aby prodávající dostal úrok za každý den, kdy mu dluhopis v daném období patřil.",
+"explainWrong": {
+"A": "",
+"B": "To je výnos do splatnosti nebo výplata nominálu s posledním kupónem, nikoliv AÚV.",
+"C": "Diskont je sleva z nominální ceny, AÚV je naběhlý úrok.",
+"D": "Při defaultu se obvykle žádný standardní výnos nevyplácí."
+}
+},
+{
+"id": "dluhopisy_039",
+"topic": "Dluhopisy",
+"question": "Proč existuje AÚV?",
+"options": {
+"A": "Protože kupón se vyplácí denně.",
+"B": "Aby byl obchod spravedlivý mezi kupujícím a prodávajícím.",
+"C": "Kvůli inflaci.",
+"D": "Kvůli poplatkům."
+},
+"correct": "B",
+"explainCorrect": "Bez AÚV by ten, kdo dluhopis prodá těsně před výplatou kupónu, přišel o úrok za období, kdy ho vlastnil.",
+"explainWrong": {
+"A": "Kupón se nevyplácí denně, ale nabíhá průběžně mezi kupónovými daty.",
+"B": "",
+"C": "AÚV nesouvisí s inflací, ale s rozdělením naběhlého úroku mezi dvě strany obchodu.",
+"D": "Poplatky jsou jiný náklad; AÚV patří prodávajícímu jako kompenzace za dobu držby."
+}
+},
+{
+"id": "dluhopisy_040",
+"topic": "Dluhopisy",
+"question": "Jak ovlivňuje rating výnos dluhopisu?",
+"options": {
+"A": "Vyšší rating = vyšší výnos.",
+"B": "Nemá vliv.",
+"C": "Nižší rating = vyšší požadovaný výnos.",
+"D": "Určuje kupón."
+},
+"correct": "C",
+"explainCorrect": "Čím méně je emitent důvěryhodný, tím vyšší výnos musí investorům nabídnout jako kompenzaci za vyšší kreditní riziko.",
+"explainWrong": {
+"A": "Vyšší rating znamená obvykle vyšší bezpečnost, a tedy nižší požadovaný výnos.",
+"B": "Rating je jedním z hlavních faktorů, které ovlivňují cenu a výnos dluhopisu.",
+"C": "",
+"D": "Kupón stanovuje emitent v emisních podmínkách; rating ho přímo neurčuje."
+}
+},
+{
+"id": "dluhopisy_041",
+"topic": "Dluhopisy",
+"question": "Co znamená investiční stupeň ratingu?",
+"options": {
+"A": "Dluhopis bez rizika.",
+"B": "Relativně bezpečný dluhopis s nižším kreditním rizikem.",
+"C": "Spekulativní dluhopis.",
+"D": "Dluhopis bez kupónu."
+},
+"correct": "B",
+"explainCorrect": "Investiční stupeň označuje dluhopisy s vyšší kreditní kvalitou a nižším rizikem nesplacení než spekulativní emise.",
+"explainWrong": {
+"A": "Žádná investice není zcela bez rizika.",
+"B": "",
+"C": "Spekulativní dluhopisy mají nižší rating než investiční stupeň.",
+"D": "Investiční stupeň nesouvisí s tím, zda dluhopis vyplácí kupóny."
+}
+},
+{
+"id": "dluhopisy_042",
+"topic": "Dluhopisy",
+"question": "Co je bezkupónový dluhopis?",
+"options": {
+"A": "Dluhopis bez splatnosti.",
+"B": "Dluhopis bez nominálu.",
+"C": "Dluhopis bez kupónu, výnos tvoří rozdíl mezi nákupní a nominální cenou.",
+"D": "Dluhopis bez rizika."
+},
+"correct": "C",
+"explainCorrect": "Nazývá se také zero-bond. Investor ho kupuje se slevou a při splatnosti dostane nominální hodnotu.",
+"explainWrong": {
+"A": "Každý dluhopis musí mít definovanou splatnost.",
+"B": "Nominální hodnota je pro výpočet výnosu bezkupónového dluhopisu zásadní.",
+"C": "",
+"D": "Bezkupónové dluhopisy nesou úrokové i kreditní riziko jako jiné dluhopisy."
+}
+},
+{
+"id": "dluhopisy_043",
+"topic": "Dluhopisy",
+"question": "Jak vzniká výnos u bezkupónového dluhopisu?",
+"options": {
+"A": "Z kupónu.",
+"B": "Z dividend.",
+"C": "Z inflace.",
+"D": "Z rozdílu mezi nákupní cenou a nominální hodnotou při splatnosti."
+},
+"correct": "D",
+"explainCorrect": "Výnosem je diskont, za který investor pořídí dluhopis pod jeho nominální hodnotou, a následné splacení nominálu při splatnosti.",
+"explainWrong": {
+"A": "Bezkupónové dluhopisy z definice žádné průběžné kupóny nevyplácejí.",
+"B": "Dividendy patří k akciím, nikoliv k dluhopisům.",
+"C": "Inflace výnos netvoří, naopak může snižovat jeho reálnou hodnotu.",
+"D": ""
 }
 }
 ]

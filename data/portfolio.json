@@ -25,8 +25,8 @@
 "options": {
 "A": "Portfolio obsahující pouze automobilky.",
 "B": "Portfolio firem z energetického sektoru.",
-"C": "Portfolio obsahující akcie několika globálních firem z různých sektorů.",
-"D": "Portfolio malých evropských bank."
+"C": "Portfolio několika globálních firem z různých sektorů.",
+"D": "Portfolio malých evropských, amerických bank a fintech společností."
 },
 "correct": "C",
 "explainCorrect": "Diverzifikace napříč sektory a regiony snižuje korelaci aktiv.",
@@ -34,7 +34,7 @@
 "A": "Jde o sektorovou koncentraci; útlum autoprůmyslu by zasáhl celé portfolio.",
 "B": "Fokus na jeden sektor zvyšuje riziko specifických šoků v daném odvětví.",
 "C": "",
-"D": "Kombinuje geografické i sektorové riziko (koncentrace na banky v Evropě)."
+"D": "Riziko koncentrace na banky v Evropě a Americe."
 }
 },
 {
@@ -43,12 +43,12 @@
 "question": "Jak lze nejlépe snížit riziko akciového portfolia složeného z podobných fondů?",
 "options": {
 "A": "Nákupem dalších fondů ze stejného regionu.",
-"B": "Zařazením jiné třídy aktiv, např. dluhopisů nebo nemovitostí.",
+"B": "Zařazením jiné třídy aktiv.",
 "C": "Změnou na dividendové třídy.",
 "D": "Měnovým zajištěním."
 },
 "correct": "B",
-"explainCorrect": "Přidání nekorelovaných aktiv (dluhopisy, reality) efektivně snižuje volatilitu akciové složky.",
+"explainCorrect": "Přidání nekorelovaných aktiv (např. dluhopisy, reality) efektivně snižuje volatilitu akciové složky.",
 "explainWrong": {
 "A": "Přidáním fondů ze stejné oblasti diverzifikaci proti regionálním šokům nezvýšíte.",
 "B": "",
