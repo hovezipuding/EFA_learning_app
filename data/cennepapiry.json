@@ -105,7 +105,7 @@
 "D": "Automatické zkrácení doby do splatnosti."
 },
 "correct": "B",
-"explainCorrect": "Stupeň BB+ je první příčkou v tzv. spekulativním (neinvestičním) pásmu.",
+"explainCorrect": "Stupeň BB+ je první příčkou v tzv. spekulativním pásmu (prašivé dluhopisy).",
 "explainWrong": {
 "A": "Investiční stupeň končí na hladině BBB-.",
 "B": "",
@@ -365,7 +365,7 @@
 "options": {
 "A": "Dluhopis přestává vyplácet kupón.",
 "B": "Emitent automaticky snižuje jistinu.",
-"C": "Dluhopis ztrácí splatnost.",
+"C": "Cena dluhopisů klesá primárně z důvodu zvýšených nákladů na správu likvidity.",
 "D": "Nové dluhopisy na trhu nesou vyšší výnos, takže starší jsou méně atraktivní."
 },
 "correct": "D",
@@ -373,7 +373,7 @@
 "explainWrong": {
 "A": "Kupón je dán smlouvou a vyplácí se beze změny dál.",
 "B": "Jistina (nominál) je fixní a emitent ji musí splatit v plné výši.",
-"C": "Splatnost je pevně stanovené datum, které se nemění.",
+"C": "Výše uvedený text používá termín jako správa likvidity“, který zní důležitě, ale ve skutečnosti s cenou dluhopisu na trhu takto přímo nesouvisí.",
 "D": ""
 }
 },
@@ -480,7 +480,7 @@
 "A": "Má vysokou citlivost na sazby.",
 "B": "Nemá žádný výnos.",
 "C": "Má fixní kupón.",
-"D": "Jeho výnos se přizpůsobuje trhu, takže má nízké úrokové riziko."
+"D": "Má nízké úrokové riziko."
 },
 "correct": "D",
 "explainCorrect": "Protože se kupón pravidelně upravuje podle aktuálních sazeb, tržní cena variabilního dluhopisu bývá relativně stabilní.",
@@ -496,7 +496,7 @@
 "topic": "Dluhopisy",
 "question": "Co znamená YTM (výnos do splatnosti)?",
 "options": {
-"A": "Roční kupón.",
+"A": "Roční kupón, který je hlavní složkou výnosu",
 "B": "Inflaci.",
 "C": "Celkový výnos při držení do splatnosti.",
 "D": "Poplatky."
