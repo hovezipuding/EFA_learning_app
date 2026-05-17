@@ -20,6 +20,7 @@ const ui = {
   explain: document.getElementById("explain"),
   showDetailsBtn: document.getElementById("showDetailsBtn"),
   retryBtn: document.getElementById("retryBtn"),
+  prevBtn: document.getElementById("prevBtn"),
   nextBtn: document.getElementById("nextBtn"),
 
   okCount: document.getElementById("okCount"),
@@ -33,6 +34,7 @@ let current = null;
 let revealed = false;
 let detailsShown = false;
 let lastChosenLetter = null;
+let sessionAnswers = {}; // odpovědi v aktuálním průchodu, aby šlo vracet se zpět
 
 function loadState() {
   try {
@@ -94,6 +96,7 @@ function buildQueue() {
 
   queue = order === "random" ? shuffle(base) : base;
   idx = 0;
+  sessionAnswers = {};
   updateProgress();
 }
 
@@ -108,10 +111,15 @@ function clearExplain() {
   ui.explain.style.display = "none";
   ui.explain.innerHTML = "";
 }
+function updateNavButtons() {
+  ui.prevBtn.disabled = !queue.length || idx <= 0;
+}
+
 function setButtonsAfterRender() {
   ui.showDetailsBtn.disabled = true;
   ui.retryBtn.disabled = true;
   ui.nextBtn.disabled = true;
+  updateNavButtons();
 }
 
 function renderQuestion() {
@@ -133,6 +141,7 @@ function renderQuestion() {
   }
 
   current = queue[idx];
+  const savedAnswer = sessionAnswers[idx];
   ui.qid.textContent = current.id || `Q${idx + 1}`;
   ui.qtopic.textContent = current.topic || "Nezařazeno";
   ui.question.textContent = current.question;
@@ -147,7 +156,20 @@ function renderQuestion() {
     ui.options.appendChild(btn);
   });
 
+  if (savedAnswer) {
+    revealed = true;
+    lastChosenLetter = savedAnswer.chosenLetter;
+    detailsShown = savedAnswer.detailsShown || false;
+
+    markButtons(current.correct, lastChosenLetter);
+    ui.retryBtn.disabled = false;
+    ui.nextBtn.disabled = idx >= queue.length - 1;
+    ui.showDetailsBtn.disabled = (ui.modeSelect.value !== "practice");
+    showExplanation();
+  }
+
   updateProgress();
+  updateNavButtons();
 }
 
 function markButtons(correctLetter, chosenLetter) {
@@ -210,8 +232,9 @@ function onAnswer(letter) {
 
   markButtons(correct, letter);
   recordResult(isCorrect);
+  sessionAnswers[idx] = { chosenLetter: letter, detailsShown: false };
 
-  ui.nextBtn.disabled = false;
+  ui.nextBtn.disabled = idx >= queue.length - 1;
   ui.retryBtn.disabled = false;
   ui.showDetailsBtn.disabled = (ui.modeSelect.value !== "practice");
 
@@ -222,13 +245,26 @@ function onAnswer(letter) {
 ui.showDetailsBtn.addEventListener("click", () => {
   if (!revealed) return;
   detailsShown = true;
+  if (sessionAnswers[idx]) sessionAnswers[idx].detailsShown = true;
   showExplanation();
 });
 
-ui.retryBtn.addEventListener("click", () => renderQuestion());
+ui.retryBtn.addEventListener("click", () => {
+  delete sessionAnswers[idx];
+  renderQuestion();
+});
+
+ui.prevBtn.addEventListener("click", () => {
+  if (!queue.length || idx <= 0) return;
+  idx -= 1;
+  updateProgress();
+  renderQuestion();
+});
+
 ui.nextBtn.addEventListener("click", () => {
   if (!queue.length) return;
-  idx = Math.min(idx + 1, queue.length - 1);
+  if (idx >= queue.length - 1) return;
+  idx += 1;
   updateProgress();
   renderQuestion();
 });
