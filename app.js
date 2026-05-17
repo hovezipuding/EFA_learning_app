@@ -118,8 +118,9 @@ function updateNavButtons() {
 function setButtonsAfterRender() {
   ui.showDetailsBtn.disabled = true;
   ui.retryBtn.disabled = true;
+
+  ui.prevBtn.disabled = !queue.length || idx <= 0;
   ui.nextBtn.disabled = true;
-  updateNavButtons();
 }
 
 function renderQuestion() {
