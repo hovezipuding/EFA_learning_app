@@ -233,12 +233,11 @@ function onAnswer(letter) {
 
   markButtons(correct, letter);
   recordResult(isCorrect);
-  sessionAnswers[idx] = { chosenLetter: letter, detailsShown: false };
 
-  ui.nextBtn.disabled = false;
-ui.prevBtn.disabled = idx <= 0;
-ui.retryBtn.disabled = false;
-ui.showDetailsBtn.disabled = (ui.modeSelect.value !== "practice");
+  ui.nextBtn.disabled = idx >= queue.length - 1;
+  ui.prevBtn.disabled = idx <= 0;
+  ui.retryBtn.disabled = false;
+  ui.showDetailsBtn.disabled = (ui.modeSelect.value !== "practice");
 
   showExplanation();
   updateProgress();
@@ -257,15 +256,19 @@ ui.retryBtn.addEventListener("click", () => {
 });
 
 ui.prevBtn.addEventListener("click", () => {
-  if (!queue.length || idx <= 0) return;
-  idx -= 1;
+  if (!queue.length) return;
+
+  idx = Math.max(idx - 1, 0);
+
   updateProgress();
   renderQuestion();
 });
 
-ui.prevBtn.addEventListener("click", () => {
-  if (!queue.length || idx <= 0) return;
-  idx = Math.max(idx - 1, 0);
+ui.nextBtn.addEventListener("click", () => {
+  if (!queue.length) return;
+
+  idx = Math.min(idx + 1, queue.length - 1);
+
   updateProgress();
   renderQuestion();
 });
